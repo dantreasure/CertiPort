@@ -1,6 +1,6 @@
-body * {
+/*body * {
 	border: 1px solid black;
-}
+}*/
 
 .nav {
 	width: 1000px;
@@ -42,5 +42,61 @@ body * {
 }
 
 .slideout {
-	display: none;
+	width: 1000px;
 }
+
+.slideout > div {
+	display: inline-block;
+}
+
+.slideout-tray {
+	width: 240px;
+	background: #ebebeb;
+	height: 359px;
+	padding-left: 30px;
+	padding-top: 48px;
+}
+
+.tray-headline {
+	text-decoration: none;
+	font-size: 24px;
+	font-weight: 700;
+	font-family: 'Open Sans', sans-serif;
+	color: #008641;
+	margin-bottom: 24px;
+}
+
+.tray-copy {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	line-height: 12px;
+	margin-bottom: 8px;
+	color: #6b6b6b;
+}
+
+.slideout-tray :nth-child(6) {
+	margin-bottom: 24px;
+}
+
+.tray-resource {
+	list-style-type: none;
+	margin-bottom: 16px;
+}
+
+.tray-link {
+	font-family: 'Open Sans', sans-serif;
+	color: #464646;
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 16px;
+	font-weight: 700;
+}
+
+
+.slideout-channels {
+	width: 730px;
+	float: right;
+	height: 407px;
+	background: #ffffff;
+}
+

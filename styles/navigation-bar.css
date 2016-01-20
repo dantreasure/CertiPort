@@ -43,6 +43,7 @@
 
 .slideout {
 	width: 1000px;
+	display: none;
 }
 
 .slideout > div {
@@ -54,7 +55,7 @@
 	background: #ebebeb;
 	height: 359px;
 	padding-left: 30px;
-	padding-top: 48px;
+	padding-top: 32px;
 }
 
 .tray-headline {
@@ -100,3 +101,35 @@
 	background: #ffffff;
 }
 
+.slideout-channel {
+	margin-top: 48px;
+	margin-left: 70px;
+	float: left;
+}
+
+.channel-header {
+	margin-bottom: 18px;
+}
+
+.channel-headline {
+	font-size: 18px;
+	font-weight: 700;
+	color: #4967ac;
+}
+
+
+.channel-image {
+	margin-bottom: 18px;
+}
+
+.channel-resource {
+	list-style-type: none;
+	margin-bottom: 16px;
+}
+
+.channel-link {
+	text-decoration: none;
+	color: #464646;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+}

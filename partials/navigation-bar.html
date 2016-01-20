@@ -5,12 +5,13 @@
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="../styles/boilerplate.css">
   <link rel="stylesheet" type="text/css" href="../styles/navigation-bar.css">
+  <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
 </head>
 <body>
   <div class="nav">
     <div class="nav-container">
       <p class="nav-headline">MOS 2016</p>
-      <img class="nav-icon" height="24" width="24" src="../images/grid-icon.png">
+      <img id="nav-button" class="nav-icon" height="24" width="24" src="../images/grid-icon.png">
       <p class="nav-aside-text">explore</p>
     </div>
   </div>
@@ -46,7 +47,9 @@
       <div class="slideout-channels">
         <div class="slideout-channel">
           <div class="channel-header">
-            <div class="channel-image"></div>
+            <div class="channel-image">
+              <img height="72" width="160" src="../images/mos-2016.png">
+            </div>
             <p class="channel-headline">MOS 2016</p>
           </div>
           <ul class="channel-resources">
@@ -69,24 +72,28 @@
         </div>
         <div class="slideout-channel">
           <div class="channel-header">
-            <div class="channel-image"></div>
+            <div class="channel-image">
+              <img height="70" width="160" src="../images/key-benefits.png">
+            </div>
             <p class="channel-headline">Key Benefits</p>
           </div>
           <ul class="channel-resources">
             <li class="channel-resource">
-              <a href="" class="channel-link">College & Career Readiness</a>
+              <a href="" class="channel-link">College & Career<br /> Readiness</a>
             </li>
             <li class="channel-resource">
-              <a href="" class="channel-link">Increased School Success</a>
+              <a href="" class="channel-link">Increased School<br /> Success</a>
             </li>
             <li class="channel-resource">
-              <a href="" class="channel-link">Increased Student Success</a>
+              <a href="" class="channel-link">Increased Student<br /> Success</a>
             </li>
           </ul>
         </div>
         <div class="slideout-channel">
           <div class="channel-header">
-            <div class="channel-image"></div>
+            <div class="channel-image">
+              <img height="70" width="160" src="../images/make-mos-work.png">
+            </div>
             <p class="channel-headline">Make MOS Work</p>
           </div>
           <ul class="channel-resources">
@@ -112,5 +119,6 @@
         </div>
       </div>
     </div>
+    <script type="text/javascript" src="../scripts/navigation-bar.js"></script>
 </body>
 </html>

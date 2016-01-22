@@ -1,0 +1,86 @@
+.asset-left {
+	max-width: 1000px;
+	max-height: 424px;
+}
+
+.asset-media {
+	float: left;
+}
+
+.asset-copy {
+	margin-left: 350px;
+	padding-top: 48px;
+}
+
+.asset-copy-headline {
+	display: inline-block;
+	height: 48px;
+	margin-left: 160px;
+	margin-bottom: 16px;
+	color: #3b3b3c;
+	font-size: 24px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	background-image: url("../images/horizontal-rule-sm.png");
+	background-repeat: no-repeat;
+	background-position-y: 47px;
+	background-position-x: 150px;
+	
+}
+
+.asset-copy-subhead {
+	display: inline-block;
+	color: #636466;
+	font-size: 16px;
+	line-height: 1.5;
+	margin-left: 44px;
+	margin-bottom: 32px;
+}
+
+.asset-copy-channels {
+	display: inline-block;
+	margin-left: 51px;
+}
+
+.copy-channel {
+	float: left;
+	position: relative;
+}
+
+.copy-channel:first-child {
+	margin-right: 74px;
+}
+
+.channel-headline {
+	font-size: 18px;
+	color: #3b3b3c;
+	line-height: 24px;
+	font-weight: 700;
+	margin-bottom: 18px;
+}
+
+.channel-list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.channel-item {
+	padding-left: 1em;
+	text-indent: -.7em;
+	font-size: 16px;
+	line-height: 22px;
+	font-family: 'Open Sans', sans-serif;
+	color: #636466;
+}
+
+.channel-item:before {
+	content: "• ";
+	color: #636466;
+}
+
+.channel-item-link {
+	display: inline;
+	text-decoration: none;
+	color: #4967ac;
+}

@@ -1,10 +1,12 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Grid-Block</title>
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="../styles/boilerplate.css">
 	<link rel="stylesheet" href="grid-block.css">
+	<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.js"></script>
 </head>
 <body>
 	<div class="grid-block">
@@ -15,26 +17,53 @@
 		</div>
 		<div class="grid-body">
 			<div class="grid-content left">
-				<p class="content-left headline">
-					Empowering Students and Educators
-				</p>
-				<p class="content-left copy">
-					For students, MOS certifications boost academic <br />performance, prepare them for the demands of <br />college, and open doors to career opportunities.
-				</p>
-				<p class="content-left copy">
-					For educators, MOS courses provide targeted <br />training and support every step of the way, along<br />with a more engaged student body.
-				</p>
-				<p class="content-left copy">
-					For administrators, a MOS investment nets lower <br />dropout and disciplinary rates, more diplomas, <br />and higher GPAs.
-				</p>
-				<a href="" class="content-left action">EXPLORE THE DATA ></a>
+				<div class="content-left">
+					<p class="headline">
+						Empowering Students and Educators
+					</p>
+					<p class="copy">
+						For students, MOS certifications boost academic <br />performance, prepare them for the demands of <br />college, and open doors to career opportunities.
+					</p>
+					<p class="copy">
+						For educators, MOS courses provide targeted <br />training and support every step of the way, along<br />with a more engaged student body.
+					</p>
+					<p class="copy">
+						For administrators, a MOS investment nets lower <br />dropout and disciplinary rates, more diplomas, <br />and higher GPAs.
+					</p>
+					<a href="" class="action">EXPLORE THE DATA ></a>
+				</div>
 			</div>
 			<div class="grid-content right">
-				<div class="sub-box top"></div>
-				<div class="sub-box bottom-left"></div>
-				<div class="sub-box bottom-right"></div>
+				<div class="sub-box top">
+					<img src="../images/circled-check-mark.png" alt="Check mark" class="sub-box-icon">
+					<p class="sub-box-headline">
+						Certify and Be Seen
+					</p>
+					<p class="sub-box-copy">
+						MOS 2016 certification gives students a commanding <br />competitive edge in today's academic and professional <br />environments.
+					</p>
+				</div>
+				<div class="sub-box bottom-left">
+					<img src="../images/circled-grid-icon.png" alt="Check mark" class="sub-box-icon">
+					<p class="sub-box-headline">
+						The One. The Only.
+					</p>
+					<p class="sub-box-copy">
+						Certiport is the exclusive <br />certification organization<br />endorsed by Microsoft.
+					</p>
+				</div>
+				<div class="sub-box bottom-right">
+					<img src="../images/circled-bullseye-icon.png" alt="Check mark" class="sub-box-icon">
+					<p class="sub-box-headline">
+						Optimize
+					</p>
+					<p class="sub-box-copy">
+						Course effectiveness.<br />Classroom efficiency.<br />Programs. Curricula...
+					</p>
+				</div>
 			</div>
 		</div>
 	</div>
+	<script src="grid-block.js"></script>
 </body>
 </html>

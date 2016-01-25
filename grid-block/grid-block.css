@@ -40,31 +40,6 @@
 	background-color: #ebebeb;
 }
 
-.slide-trigger {
-	width: 460px;
-	height: 20px;
-	background-image: url("../images/grid-left-background.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	position: absolute;
-}
-
-.slide-trigger:nth-of-type(1) {top: 0;}
-.slide-trigger:nth-of-type(2) {bottom: 0;}
-.slide-trigger:nth-of-type(3) {
-	background-position-x: 20px;
-	top:0;
-	width: 20px;
-	height: 440px;
-}
-.slide-trigger:nth-of-type(4) {
-	top:0;
-	width: 20px;
-	height: 440px;
-	left: auto;
-	right:0;
-}
-
 .content-left {
 	margin-left: 30px;
 	position: absolute;

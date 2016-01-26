@@ -1,0 +1,57 @@
+body * {
+	border: 1px solid black;
+}
+
+.triple-highlight {
+	width: 1000px;
+	height: 672px;
+}
+
+.highlight-header {
+	display: inline-block;
+	height: 48px;
+	margin-top: 24px;
+	margin-bottom: 24px;
+	margin-left: 260px;
+	background-image: url("../images/triple-highlight-horizontal-rule.png");
+	background-repeat: no-repeat;
+	background-position-y: 46px;
+	background-position-x: 210px;
+}
+.highlight-headline {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;	
+	font-weight: 700;
+	color: #10a049;
+}
+
+.highlight-channels > .highlight-channel:first-child {
+	margin-left: 20px;
+}
+
+.highlight-channel {
+	float: left;
+	width: 300px;
+	margin-right: 20px;
+}
+
+.channel-image {
+	margin-bottom: 16px;
+}
+
+.channel-horizontal-rule {
+	height: 8px;
+	background-image: url("../images/trip-highlight-channel-horizontal-rule.png");
+	background-repeat: no-repeat;
+	background-position-y: 6px;
+	background-position-x: 80px;
+	margin-bottom: 24px;
+}
+.channel-header {
+	text-align: center;
+	color: #008641;
+	font-size: 18px;
+	font-weight: 700;
+	margin-bottom: 16px;
+}
+

@@ -16,6 +16,7 @@ body * {
 	float: right;
 	width: 220px;
 	height: 440px;
+	background-color: #ebebeb;
 }
 .body-row {
 	width: 100%;
@@ -41,15 +42,21 @@ body * {
 	color: #4967ac;
 	font-weight: 700;
 	font-size: 18px;
-	display: inline-block;
 	margin-left: 50px;
 	margin-bottom: 16px;
 }
 
 .channel-items {
 	list-style-type: none;
+	display: inline-block;
 	margin-left: 50px;
 }
+
+.channel-items.overflow {
+	top: -34px;
+	position: relative;
+}
+
 .channel-item {
 	margin-bottom: 16px;
 }
@@ -60,4 +67,23 @@ body * {
 	font-size: 14px;
 	font-weight: 700;
 	font-family: 'Open Sans', sans-serif;
+}
+
+.aside-headline {
+	margin-left: 20px;
+	font-size: 14px;
+	font-weight: 700;
+	font-family: 'Open Sans', sans-serif;
+	color: #10a049;
+	margin-top: 24px;
+	margin-bottom: 16px;
+}
+.headline-emphasis {
+	font-size: 32px;
+}
+.aside-copy {
+	margin-left: 20px;
+	color: #464646;
+	font-size: 14px;
+	line-height: 1.5;
 }

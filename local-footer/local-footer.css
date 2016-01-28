@@ -3,7 +3,6 @@
 	height: 488px;
 }
 
-
 .footer-body {
 	height: 441px;
 }
@@ -64,6 +63,7 @@
 	height: 40px;
 	border: 2px solid #ffffff;
 	background-color: #232323;
+	cursor: pointer;
 }
 .story-action-link {
 	text-decoration: none;
@@ -77,4 +77,66 @@
 	width: 590px;
 	float: left;
 	background-color: #363636;
+}
+.mos-links {
+	margin-left: 20px;
+	margin-top: 48px;
+	margin-right: 120px;
+	width: 160px;
+	float: left;
+}
+.mos-links-headline {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;	
+	font-weight: 700;
+	color: #ffffff;
+	margin-bottom: 24px;
+}
+.mos-links-list {
+	list-style-type: none;
+	margin-bottom: 24px;
+}
+.mos-link-item:last-child {
+	margin-bottom: 0px;
+}
+.mos-link-item {
+	margin-bottom: 16px;
+}
+.mos-link {
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;	
+	color: #ffffff;
+	font-weight: 300;
+}
+.connect-links {
+	float: left;
+	margin-top: 48px;
+}
+.connect-contact {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: #ffffff;
+	margin-bottom: 16px;
+}
+.connect-schedule {
+	font-family: 'Open Sans', sans-serif;
+	color: #ffffff;
+	font-weight: 300;
+	font-size: 14px;
+	margin-bottom: 48px;
+}
+.connect-email {
+	text-decoration: underline;
+	color: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	margin-bottom: 16px;
+}
+.connect-email-meta {
+	font-weight: 300;
+	color: #ffffff;
+	font-size: 14px;
+	font-style: italic;
 }

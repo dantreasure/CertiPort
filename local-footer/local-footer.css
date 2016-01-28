@@ -6,7 +6,7 @@
 .footer-body {
 	height: 441px;
 }
-.footer-footer {
+.footer-meta {
 	height: 47px;
 	background-color: #2e2e2e;
 }
@@ -63,7 +63,6 @@
 	height: 40px;
 	border: 2px solid #ffffff;
 	background-color: #232323;
-	cursor: pointer;
 }
 .story-action-link {
 	text-decoration: none;
@@ -139,4 +138,21 @@
 	color: #ffffff;
 	font-size: 14px;
 	font-style: italic;
+}
+.meta-links {
+	margin-left: 335px;
+	color: #ffffff;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	display: inline-block;
+	margin-top: 16px;
+}
+.meta-link {
+	display: inline;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;	
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 700;
 }

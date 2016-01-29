@@ -1,0 +1,160 @@
+.local-footer {
+	width: 1000px;
+	height: 488px;
+}
+
+.local-footer .footer-body {
+	height: 441px;
+}
+.local-footer .footer-meta {
+	height: 47px;
+	background-color: #2e2e2e;
+}
+.local-footer .success-story {
+	float: left;
+	width: 410px;
+	height: 441px;
+	background-color: #232323;
+}
+.local-footer .story-headline {
+	font-size: 16px;
+	color: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	margin-left: 40px;
+	margin-top: 48px;
+	margin-bottom: 24px;
+}
+.local-footer .story-bio {
+	margin-left: 40px;
+	margin-bottom: 48px;
+	position: relative;
+}
+.local-footer .bio-image {
+	float: left;
+	margin-right: 19px;
+}
+.local-footer .bio-name {
+	font-size: 16px;
+	color: #ffffff;	
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	margin-bottom: 8px;
+	display: inline-block;
+	margin-top: 8px;
+}
+.local-footer .bio-location {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #ffffff;	
+	line-height: 20px;
+	margin-bottom: 24px;
+}
+.local-footer .bio-link {
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 600;
+	font-family: 'Open Sans', sans-serif;
+}
+.local-footer .story-action {
+	margin-left: 40px;
+	width: 221px;
+	height: 40px;
+	border: 2px solid #ffffff;
+	background-color: #232323;
+}
+.local-footer .story-action-link {
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+	color: #ffffff;
+}
+.local-footer .link-block {
+	height: 441px;
+	width: 590px;
+	float: left;
+	background-color: #363636;
+}
+.local-footer .mos-links {
+	margin-left: 20px;
+	margin-top: 48px;
+	margin-right: 120px;
+	width: 160px;
+	float: left;
+}
+.local-footer .mos-links-headline {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;	
+	font-weight: 700;
+	color: #ffffff;
+	margin-bottom: 24px;
+}
+.local-footer .mos-links-list {
+	list-style-type: none;
+	margin-bottom: 24px;
+}
+.local-footer .mos-link-item:last-child {
+	margin-bottom: 0px;
+}
+.local-footer .mos-link-item {
+	margin-bottom: 16px;
+}
+.local-footer .mos-link {
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;	
+	color: #ffffff;
+	font-weight: 300;
+}
+.local-footer .connect-links {
+	float: left;
+	margin-top: 48px;
+}
+.local-footer .connect-contact {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: #ffffff;
+	margin-bottom: 16px;
+}
+.local-footer .connect-schedule {
+	font-family: 'Open Sans', sans-serif;
+	color: #ffffff;
+	font-weight: 300;
+	font-size: 14px;
+	margin-bottom: 48px;
+}
+.local-footer .connect-email {
+	text-decoration: underline;
+	color: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	margin-bottom: 16px;
+}
+.local-footer .connect-email-meta {
+	font-weight: 300;
+	color: #ffffff;
+	font-size: 14px;
+	font-style: italic;
+}
+.local-footer .meta-links {
+	position: absolute;
+	left: 0;
+	margin-left: 335px;
+	color: #ffffff;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	display: inline-block;
+	margin-top: 16px;
+}
+.local-footer .meta-link {
+	display: inline;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;	
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 700;
+}

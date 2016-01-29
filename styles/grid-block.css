@@ -1,0 +1,116 @@
+.grid-block {
+	width: 1000px;
+	height: 648px;
+	background-image: url("../images/mos-impact.jpg");
+	margin-bottom: 56px;
+}
+
+.grid-block .grid-header {
+	margin-left: 417px;
+	margin-top: 72px;
+	margin-bottom: 32px;
+	display: inline-block;
+	height: 48px;
+	background-image: url("../images/horizontal-rule-white-med.png");
+	background-repeat: no-repeat;
+	background-position-y: 46px;
+	background-position-x: 53px;
+}
+
+.grid-block .grid-headline {
+	font-size: 24px;
+	color: #ffffff;
+	font-weight: 700;
+	font-family: 'Open Sans', sans-serif;
+	letter-spacing: .04em;
+}
+
+.grid-block .grid-content {
+	float: left;
+	position: relative;
+}
+
+.grid-block .grid-content.left {
+	width: 460px;
+	height: 440px;
+	margin-left: 30px;
+	background-color: #ebebeb;
+}
+
+.grid-block .content-left {
+	margin-left: 30px;
+	position: absolute;
+	z-index: 20;
+}
+
+.grid-block .content-left > .headline {
+	margin-top: 112px;
+	margin-bottom: 16px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+	color: #3b3b3c;
+}
+
+.grid-block .content-left > .copy {
+	font-family: 'Open Sans', sans-serif;
+	color: #636466;
+	font-size: 16px;
+	line-height: 1.5;
+	margin-bottom: 8px;
+}
+
+.grid-block .content-left > .action {
+	margin-top: 24px;
+	font-size: 12px;
+	color: #4967ac;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+}
+
+.grid-block .grid-content.right {
+	width: 460px;
+	height: 440px;
+	margin-left: 20px;
+}
+
+.grid-block .sub-box{
+	background-color: #3b3b3c;
+	float: left;
+	width: 220px;
+	height: 210px;
+}
+
+.grid-block .sub-box.top {
+	width: 460px;
+	margin-bottom: 20px;
+}
+
+.grid-block .sub-box.bottom-left {
+	margin-right: 20px;
+}
+
+.grid-block .sub-box-icon {
+	margin-top: 24px;
+	margin-left: 20px;
+	margin-bottom: 16px;
+}
+
+.grid-block .sub-box-headline {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	margin-left: 20px;
+	color: #ffffff;
+	margin-bottom: 16px;
+}
+
+.grid-block .sub-box-copy {
+	font-family: 'Open Sans', sans-serif;
+	color: #ffffff;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5;
+	margin-left: 20px;
+}

@@ -1,13 +1,10 @@
-/*body * {
-	border: 1px solid black;
-}*/
-
 .triple-highlight {
 	width: 1000px;
 	height: 672px;
+	margin-bottom: 72px;
 }
 
-.highlight-header {
+.triple-highlight .highlight-header {
 	display: inline-block;
 	height: 48px;
 	margin-top: 24px;
@@ -18,28 +15,28 @@
 	background-position-y: 46px;
 	background-position-x: 210px;
 }
-.highlight-headline {
+.triple-highlight .highlight-headline {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 24px;	
 	font-weight: 700;
 	color: #10a049;
 }
 
-.highlight-channels > .highlight-channel:first-child {
+.triple-highlight .highlight-channels > .highlight-channel:first-child {
 	margin-left: 30px;
 }
 
-.highlight-channel {
+.triple-highlight .highlight-channel {
 	float: left;
 	width: 300px;
 	margin-right: 20px;
 }
 
-.channel-image {
+.triple-highlight .channel-image {
 	margin-bottom: 16px;
 }
 
-.channel-horizontal-rule {
+.triple-highlight .channel-horizontal-rule {
 	height: 8px;
 	background-image: url("../images/trip-highlight-channel-horizontal-rule.png");
 	background-repeat: no-repeat;
@@ -47,14 +44,14 @@
 	background-position-x: 80px;
 	margin-bottom: 24px;
 }
-.channel-header {
+.triple-highlight .channel-header {
 	text-align: center;
 	color: #008641;
 	font-size: 18px;
 	font-weight: 700;
 	margin-bottom: 16px;
 }
-.channel-copy {
+.triple-highlight .channel-copy {
 	margin-left: 20px;
 	font-size: 16px;
 	color: #636466;

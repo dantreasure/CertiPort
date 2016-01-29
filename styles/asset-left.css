@@ -1,18 +1,19 @@
 .asset-left {
 	width: 1000px;
 	height: 424px;
+	margin-bottom: 32px;
 }
 
-.asset-media {
+.asset-left .asset-media {
 	float: left;
 }
 
-.asset-copy {
+.asset-left .asset-copy {
 	margin-left: 350px;
 	padding-top: 48px;
 }
 
-.asset-copy-headline {
+.asset-left .asset-copy-headline {
 	display: inline-block;
 	height: 48px;
 	margin-left: 160px;
@@ -28,7 +29,7 @@
 	
 }
 
-.asset-copy-subhead {
+.asset-left .asset-copy-subhead {
 	display: inline-block;
 	color: #636466;
 	font-size: 16px;
@@ -37,21 +38,21 @@
 	margin-bottom: 32px;
 }
 
-.asset-copy-channels {
+.asset-left .asset-copy-channels {
 	display: inline-block;
 	margin-left: 51px;
 }
 
-.copy-channel {
+.asset-left .copy-channel {
 	float: left;
 	position: relative;
 }
 
-.copy-channel:first-child {
+.asset-left .copy-channel:first-child {
 	margin-right: 74px;
 }
 
-.channel-headline {
+.asset-left .channel-headline {
 	font-size: 18px;
 	color: #3b3b3c;
 	line-height: 24px;
@@ -59,13 +60,13 @@
 	margin-bottom: 18px;
 }
 
-.channel-list {
+.asset-left .channel-list {
 	list-style: none;
 	padding: 0;
 	margin: 0;
 }
 
-.channel-item {
+.asset-left .channel-item {
 	padding-left: 1em;
 	text-indent: -.7em;
 	font-size: 16px;
@@ -74,12 +75,12 @@
 	color: #636466;
 }
 
-.channel-item:before {
+.asset-left .channel-item:before {
 	content: "• ";
 	color: #636466;
 }
 
-.channel-item-link {
+.asset-left .channel-item-link {
 	display: inline;
 	text-decoration: none;
 	color: #4967ac;

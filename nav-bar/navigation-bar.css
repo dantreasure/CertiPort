@@ -41,20 +41,22 @@
 		}
 
 .slideout {
+	position: absolute;
+	z-index: 20;
 	width: 1000px;
 	display: none;
 }
 
 .slideout .slideout-tray {
 	display: inline-block;
-	width: 240px;
+	width: 270px;
 	background: #ebebeb;
-	height: 359px;
-	padding-left: 30px;
-	padding-top: 32px;
+	height: 408px;
 }
 
 .slideout .tray-headline {
+	margin-top: 32px;
+	margin-left: 32px;
 	text-decoration: none;
 	font-size: 24px;
 	font-weight: 700;
@@ -68,11 +70,16 @@
 	font-size: 14px;
 	line-height: 12px;
 	margin-bottom: 8px;
+	margin-left: 32px;
 	color: #6b6b6b;
 }
 
 .slideout .slideout-tray :nth-child(6) {
 	margin-bottom: 24px;
+}
+
+.slideout .tray-resources {
+	margin-left: 32px;
 }
 
 .slideout .tray-resource {
@@ -93,7 +100,7 @@
 .slideout .slideout-channels {
 	width: 730px;
 	float: right;
-	height: 407px;
+	height: 408px;
 	background: #ffffff;
 }
 

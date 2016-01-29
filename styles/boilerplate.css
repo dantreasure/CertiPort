@@ -23,6 +23,11 @@ body {
     line-height:1;
 }
 
+.container {
+    margin: 0 auto;
+    width: 1000px;
+}
+
 p {
 	font-family: 'Open Sans', sans-serif;
 }

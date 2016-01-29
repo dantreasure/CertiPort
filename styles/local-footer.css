@@ -139,6 +139,9 @@
 	font-size: 14px;
 	font-style: italic;
 }
+.local-footer .footer-meta {
+	position: relative;
+}
 .local-footer .meta-links {
 	position: absolute;
 	left: 0;

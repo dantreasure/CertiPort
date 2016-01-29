@@ -8,7 +8,9 @@
 	background: #4967AC;
 	position: relative;
 }
-		
+	#nav-button {
+		cursor: pointer;
+	}	
 	.nav .nav-container {
 		width: 780px;
 		position: absolute;

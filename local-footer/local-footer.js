@@ -35,12 +35,6 @@ $(document).ready(function(){
 			location: "West Jordan, United States<br />Teacher at Copper Hills<br />High School",
 			link: "Read hist story >",
 			image: "../images/students/brandon.png"
-		},
-		{
-			name: "Chelsea",
-			location: "Piscataway, NJ, United States<br />Student at Piscataway<br />High School",
-			link: "Read her story >",
-			image: "../images/students/chelsea.png"
 		}
 	]
 

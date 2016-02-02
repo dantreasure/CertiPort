@@ -1,14 +1,11 @@
-/*body * {
-	border: 1px solid black;
-}*/
-
 .grid-block {
 	width: 1000px;
 	height: 648px;
 	background-image: url("../images/mos-impact.jpg");
+	margin-bottom: 56px;
 }
 
-.grid-header {
+.grid-block .grid-header {
 	margin-left: 417px;
 	margin-top: 72px;
 	margin-bottom: 32px;
@@ -20,7 +17,7 @@
 	background-position-x: 53px;
 }
 
-.grid-headline {
+.grid-block .grid-headline {
 	font-size: 24px;
 	color: #ffffff;
 	font-weight: 700;
@@ -28,26 +25,36 @@
 	letter-spacing: .04em;
 }
 
-.grid-content {
+.grid-block .grid-content {
 	float: left;
 	position: relative;
 }
 
-.grid-content.left {
+.grid-block .grid-content.left {
 	width: 460px;
 	height: 440px;
 	margin-left: 30px;
 	background-color: #ebebeb;
+	position: relative;
+	z-index: 10;
+	background-image: url("../images/grid-block-big-background.png")
 }
 
-.content-left {
+.grid-block #content-left-background{
+	position: absolute;
+	background-color: #ebebeb;
+	width: 460px;
+	height: 440px;
+}
+
+.grid-block .content-left {
 	margin-left: 30px;
 	position: absolute;
 	z-index: 20;
 }
 
-.content-left > .headline {
-	margin-top: 112px;
+.grid-block .content-left > .headline {
+	margin-top: 24px;
 	margin-bottom: 16px;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
@@ -55,7 +62,7 @@
 	color: #3b3b3c;
 }
 
-.content-left > .copy {
+.grid-block .content-left > .copy {
 	font-family: 'Open Sans', sans-serif;
 	color: #636466;
 	font-size: 16px;
@@ -63,7 +70,7 @@
 	margin-bottom: 8px;
 }
 
-.content-left > .action {
+.grid-block .content-left > .action {
 	margin-top: 24px;
 	font-size: 12px;
 	color: #4967ac;
@@ -72,35 +79,75 @@
 	font-weight: 700;
 }
 
-.grid-content.right {
+.grid-block .grid-content.right {
 	width: 460px;
 	height: 440px;
 	margin-left: 20px;
 }
 
-.sub-box{
+.grid-block .sub-box{
 	background-color: #3b3b3c;
 	float: left;
 	width: 220px;
 	height: 210px;
 }
 
-.sub-box.top {
+.grid-block .sub-box.wide {
 	width: 460px;
+	height: 210px;
+	z-index: 11;
 	margin-bottom: 20px;
+	position: relative;
+	background-image: url("../images/grid-block-wide-background.png");
+}
+.grid-block .sub-box-content {
+	position: absolute;
+	z-index: 20;
+}
+.grid-block #grid-wide-background{
+	position: absolute;
+	background-color: #3b3b3c;
+	width: 460px;
+	height: 210px;
+	z-index: 10;
 }
 
-.sub-box.bottom-left {
+.grid-block .sub-box.left {
+	position: relative;
 	margin-right: 20px;
+	background-image: url("../images/grid-block-left-background.png");
+}
+.grid-block #grid-left-background{
+	position: absolute;
+	background-color: #3b3b3c;
+	width: 220px;
+	height: 210px;
+	z-index: 10;
 }
 
-.sub-box-icon {
+.grid-block .sub-box.right {
+	position: relative;
+	background-image: url("../images/grid-block-right-background.png");
+}
+.grid-block #grid-right-background{
+	position: absolute;
+	background-color: #3b3b3c;
+	width: 220px;
+	height: 210px;
+	z-index: 10;
+}
+
+.grid-block .big-box-icon {
+	margin-top: 88px;
+}
+
+.grid-block .sub-box-icon {
 	margin-top: 24px;
 	margin-left: 20px;
 	margin-bottom: 16px;
 }
 
-.sub-box-headline {
+.grid-block .sub-box-headline {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 18px;
 	font-weight: 700;
@@ -109,9 +156,9 @@
 	margin-bottom: 16px;
 }
 
-.sub-box-copy {
+.grid-block .sub-box-copy {
 	font-family: 'Open Sans', sans-serif;
-	color: #ffffff;
+	color: #e7e7e8;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.5;

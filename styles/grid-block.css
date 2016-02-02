@@ -35,6 +35,16 @@
 	height: 440px;
 	margin-left: 30px;
 	background-color: #ebebeb;
+	position: relative;
+	z-index: 10;
+	background-image: url("../images/grid-block-big-background.png")
+}
+
+.grid-block #content-left-background{
+	position: absolute;
+	background-color: #ebebeb;
+	width: 460px;
+	height: 440px;
 }
 
 .grid-block .content-left {
@@ -44,7 +54,7 @@
 }
 
 .grid-block .content-left > .headline {
-	margin-top: 112px;
+	margin-top: 24px;
 	margin-bottom: 16px;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
@@ -82,13 +92,53 @@
 	height: 210px;
 }
 
-.grid-block .sub-box.top {
+.grid-block .sub-box.wide {
 	width: 460px;
+	height: 210px;
+	z-index: 11;
 	margin-bottom: 20px;
+	position: relative;
+	background-image: url("../images/grid-block-wide-background.png");
+}
+.grid-block .sub-box-content {
+	position: absolute;
+	z-index: 20;
+}
+.grid-block #grid-wide-background{
+	position: absolute;
+	background-color: #3b3b3c;
+	width: 460px;
+	height: 210px;
+	z-index: 10;
 }
 
-.grid-block .sub-box.bottom-left {
+.grid-block .sub-box.left {
+	position: relative;
 	margin-right: 20px;
+	background-image: url("../images/grid-block-left-background.png");
+}
+.grid-block #grid-left-background{
+	position: absolute;
+	background-color: #3b3b3c;
+	width: 220px;
+	height: 210px;
+	z-index: 10;
+}
+
+.grid-block .sub-box.right {
+	position: relative;
+	background-image: url("../images/grid-block-right-background.png");
+}
+.grid-block #grid-right-background{
+	position: absolute;
+	background-color: #3b3b3c;
+	width: 220px;
+	height: 210px;
+	z-index: 10;
+}
+
+.grid-block .big-box-icon {
+	margin-top: 88px;
 }
 
 .grid-block .sub-box-icon {
@@ -108,7 +158,7 @@
 
 .grid-block .sub-box-copy {
 	font-family: 'Open Sans', sans-serif;
-	color: #ffffff;
+	color: #e7e7e8;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.5;

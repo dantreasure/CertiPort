@@ -1,0 +1,32 @@
+/*body * {
+	border: 1px solid black;
+}*/
+
+.page-heading {
+	width: 1000px;
+	height: 360px;
+	background-image: url("/images/whats-new-page-heading-background.jpg");
+	position: relative;
+}
+.heading-content {
+	position: absolute;
+	display: inline-block;
+	margin-left: 142px;
+	height: 138px;
+	margin-top: 102px;
+	background-image: url("/images/page-header-horizontal-rule.png");
+	background-repeat: no-repeat;
+	background-position-y: 0px;
+}
+.heading-headline {
+	margin-top: 24px;
+	font-size: 32px;
+	font-weight: 800;
+	font-family: 'Open Sans', sans-serif;
+}
+.heading-copy {
+	color: #3b3b3c;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	margin-top: 24px;
+} 

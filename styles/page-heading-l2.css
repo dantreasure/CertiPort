@@ -1,0 +1,29 @@
+.page-heading {
+	width: 1000px;
+	height: 360px;
+	background-image: url("/images/whats-new-page-heading-background.jpg");
+	position: relative;
+	margin-bottom: 56px;
+}
+.page-heading .heading-content {
+	position: absolute;
+	display: inline-block;
+	margin-left: 142px;
+	height: 138px;
+	margin-top: 102px;
+	background-image: url("/images/page-header-horizontal-rule.png");
+	background-repeat: no-repeat;
+	background-position-y: 0px;
+}
+.page-heading .heading-headline {
+	margin-top: 24px;
+	font-size: 32px;
+	font-weight: 800;
+	font-family: 'Open Sans', sans-serif;
+}
+.page-heading .heading-copy {
+	color: #3b3b3c;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	margin-top: 24px;
+} 

@@ -15,6 +15,7 @@
 	width: 410px;
 	height: 441px;
 	background-color: #232323;
+	position: relative;
 }
 .story-headline {
 	font-size: 16px;
@@ -58,7 +59,9 @@
 	font-family: 'Open Sans', sans-serif;
 }
 .story-action {
-	margin-left: 40px;
+	position: absolute;
+	left: 40px;
+	top: 248px;
 	width: 221px;
 	height: 40px;
 	border: 2px solid #ffffff;

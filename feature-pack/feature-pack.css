@@ -1,0 +1,39 @@
+body * {
+	font-family: 'Open Sans', sans-serif;
+	border: 1px solid black;
+}
+
+.feature-pack {
+	width: 1000px;
+	height: 464px;
+}
+.feature-header {
+	height: 48px;
+	background-image: url("/images/feature-pack-horizontal-rule.png");
+	background-repeat: no-repeat;
+	background-position-y: 46px;
+	background-position-x: 470px;
+}
+.feature-headline {
+	font-weight: 700;
+	color: #008641;
+	font-size: 24px;
+	text-align: center;
+}
+.feature-list {
+	margin-top: 40px;
+}
+.feature-item {
+	width: 300px;
+	position: relative;
+}
+.feature-item-icon {
+	position: absolute;
+	top: 7px;
+}
+.feature-item-headline {
+	margin-left: 51px;
+}
+.feature-item-subheadline {
+	margin-left: 51px;	
+}

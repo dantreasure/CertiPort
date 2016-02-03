@@ -1,57 +1,77 @@
 .asset-left {
 	width: 1000px;
 	height: 424px;
+	margin-bottom: 32px;
 }
 
-.asset-media {
+.asset-left .asset-media {
 	float: left;
 }
 
-.asset-copy {
+.asset-left .asset-copy {
 	margin-left: 350px;
 	padding-top: 48px;
 }
 
-.asset-copy-headline {
-	display: inline-block;
+.asset-left .asset-copy-headline {
 	height: 48px;
-	margin-left: 160px;
+	text-align: center;
 	margin-bottom: 16px;
 	color: #3b3b3c;
 	font-size: 24px;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
-	background-image: url("../images/horizontal-rule-sm.png");
+	background-image: url("/images/horizontal-rule-sm.png");
 	background-repeat: no-repeat;
 	background-position-y: 47px;
-	background-position-x: 150px;
-	
+	background-position-x: 310px;
 }
 
-.asset-copy-subhead {
+.asset-left .asset-copy-subhead {
 	display: inline-block;
 	color: #636466;
 	font-size: 16px;
 	line-height: 1.5;
 	margin-left: 44px;
-	margin-bottom: 32px;
 }
 
-.asset-copy-channels {
+.asset-left .asset-copy-list {
+	margin-top: 16px;
+	margin-left: 44px;
+}
+
+.asset-left .asset-copy-item {
+	font-size: 16px;
+	color: #636466;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.5;
+}
+
+.asset-left .asset-copy-plain {
 	display: inline-block;
+	color: #636466;
+	font-size: 16px;
+	line-height: 1.5;
+	margin-left: 44px;
+	margin-top: 8px;
+}
+
+.asset-left .asset-copy-channels {
+	display: inline-block;
+	margin-top: 32px;
 	margin-left: 51px;
 }
 
-.copy-channel {
+.asset-left .copy-channel {
 	float: left;
 	position: relative;
 }
 
-.copy-channel:first-child {
+.asset-left .copy-channel:first-child {
 	margin-right: 74px;
 }
 
-.channel-headline {
+.asset-left .channel-headline {
 	font-size: 18px;
 	color: #3b3b3c;
 	line-height: 24px;
@@ -59,13 +79,13 @@
 	margin-bottom: 18px;
 }
 
-.channel-list {
+.asset-left .channel-list {
 	list-style: none;
 	padding: 0;
 	margin: 0;
 }
 
-.channel-item {
+.asset-left .channel-item {
 	padding-left: 1em;
 	text-indent: -.7em;
 	font-size: 16px;
@@ -74,12 +94,12 @@
 	color: #636466;
 }
 
-.channel-item:before {
+.asset-left .channel-item:before {
 	content: "• ";
 	color: #636466;
 }
 
-.channel-item-link {
+.asset-left .channel-item-link {
 	display: inline;
 	text-decoration: none;
 	color: #4967ac;

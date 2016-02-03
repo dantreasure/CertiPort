@@ -14,19 +14,17 @@
 }
 
 .asset-left .asset-copy-headline {
-	display: inline-block;
 	height: 48px;
-	margin-left: 160px;
+	text-align: center;
 	margin-bottom: 16px;
 	color: #3b3b3c;
 	font-size: 24px;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
-	background-image: url("../images/horizontal-rule-sm.png");
+	background-image: url("/images/horizontal-rule-sm.png");
 	background-repeat: no-repeat;
 	background-position-y: 47px;
-	background-position-x: 150px;
-	
+	background-position-x: 310px;
 }
 
 .asset-left .asset-copy-subhead {
@@ -35,11 +33,32 @@
 	font-size: 16px;
 	line-height: 1.5;
 	margin-left: 44px;
-	margin-bottom: 32px;
+}
+
+.asset-left .asset-copy-list {
+	margin-top: 16px;
+	margin-left: 44px;
+}
+
+.asset-left .asset-copy-item {
+	font-size: 16px;
+	color: #636466;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.5;
+}
+
+.asset-left .asset-copy-plain {
+	display: inline-block;
+	color: #636466;
+	font-size: 16px;
+	line-height: 1.5;
+	margin-left: 44px;
+	margin-top: 8px;
 }
 
 .asset-left .asset-copy-channels {
 	display: inline-block;
+	margin-top: 32px;
 	margin-left: 51px;
 }
 

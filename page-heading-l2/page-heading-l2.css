@@ -1,14 +1,11 @@
-/*body * {
-	border: 1px solid black;
-}*/
-
 .page-heading {
 	width: 1000px;
 	height: 360px;
 	background-image: url("/images/whats-new-page-heading-background.jpg");
 	position: relative;
+	margin-bottom: 56px;
 }
-.heading-content {
+.page-heading .heading-content {
 	position: absolute;
 	display: inline-block;
 	margin-left: 142px;
@@ -18,15 +15,16 @@
 	background-repeat: no-repeat;
 	background-position-y: 0px;
 }
-.heading-headline {
+.page-heading .heading-headline {
 	margin-top: 24px;
 	font-size: 32px;
 	font-weight: 800;
 	font-family: 'Open Sans', sans-serif;
 }
-.heading-copy {
+.page-heading .heading-copy {
 	color: #3b3b3c;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 18px;
-	margin-top: 24px;
+	line-height: 24px;
+	margin-top: 18px;
 } 

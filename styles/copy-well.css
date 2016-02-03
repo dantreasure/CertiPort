@@ -1,0 +1,33 @@
+.copy-well {
+	width: 1000px;
+	margin-bottom: 56px;
+}
+.copy-well .copy-header {
+	height: 48px;
+	background-image: url("/images/whats-new-copy-well-horizontal-rule.png");
+	background-repeat: no-repeat;
+	background-position-y: 46px;
+	background-position-x: 470px;
+}
+.copy-well .copy-headline {
+	text-align: center;
+	color: #008641;
+	font-weight: 700;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+}
+.copy-well .copy-content {
+	margin-top: 24px;
+	margin-left: 110px;
+}
+.copy-well .content-copy {
+	margin-bottom: 16px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: #636466;
+	font-weight: 400;
+	line-height: 1.5;
+}
+.copy-content > .content-copy:last-child {
+	margin-bottom: 0px;
+}

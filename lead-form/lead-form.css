@@ -1,0 +1,91 @@
+.lead-form {
+	width: 1000px;
+	height: 496px;
+	background-image: url("/images/whats-new-lead-form-background.jpg");
+	background-repeat: no-repeat;
+	position: relative;
+}
+.lead-form .form-body {
+	position: absolute;
+	width: 400px;
+	left: 60px;
+	height: 100%;
+	background-image: url("/images/whats-new-form-horizontal-rule.png");
+	background-repeat: no-repeat;
+	background-position-y: 95px;
+	background-position-x: 170px;
+}
+.lead-form .form-headline {
+	margin-top: 48px;
+	font-size: 24px;
+	font-weight: 700;
+	color: #4967ac;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
+.lead-form .form-subheadline {
+	text-align: center;
+	font-size: 14px;
+	color: #636466;
+	line-height: 20px;
+	margin-top: 48px;
+	font-family: 'Open Sans', sans-serif;
+}
+.lead-form .form-inputs {
+	margin-top: 40px;
+}
+.lead-form .form-input {
+	border: none;
+	background-color: rgba(99,100,102,.20);
+	height: 32px;
+	margin-bottom: 10px;
+	line-height: 20px;
+	padding: 20px 21px;
+	font-size: 14px;
+	color: #636466;
+	margin-left: 0px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.lead-form .form-input::-webkit-input-placeholder {
+	color: #636466;
+	font-size: 14px;
+}
+.lead-form .form-input::-moz-placeholder {
+	color: #636466;	
+	font-size: 14px;
+}
+.lead-form .form-input:-moz-placeholder {
+	color: #636466;
+	font-size: 14px;
+}
+.lead-form .form-input:-ms-input-placeholder {
+	color: #636466;	
+	font-size: 14px;	
+}
+
+.lead-form .form-input.wide {
+	width: 400px;
+}
+
+.lead-form .form-input.three-fourths {
+	width: 220px;
+	margin-right: 16px;
+}
+.lead-form .form-input.quarter {
+	width: 160px;
+}
+
+.lead-form .form-inputs > .form-input:nth-child(5) {
+	margin-bottom: 33px;
+}
+.lead-form .form-submit {
+	margin-left: 89.5px;
+	width: 221px;
+	height: 36px;
+	border: 2px solid #4967ac;
+	background-color: #ffffff;
+	font-size: 14px;
+	color: #4967ac;
+	cursor: pointer;
+}

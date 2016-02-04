@@ -1,25 +1,34 @@
-<!DOCTYPE html>
 <html>
 <head>
-	<title>Certiport</title>
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="../styles/boilerplate.css">
-	<link rel="stylesheet" type="text/css" href="navigation-bar.css">
+	<meta charset="UTF-8">
+	<title>Certification Overview</title>
+	<!-- BOILERPLATE -->
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="/styles/boilerplate.css">
+	<!-- MODULES -->
+	<link rel="stylesheet" href="/styles/navigation-bar.css">
+	<link rel="stylesheet" href="/styles/page-heading-l2.css">
+	<link rel="stylesheet" href="/styles/triple-highlight-block.css">
+	<!-- PAGE STYLES -->
+	<link rel="stylesheet" href="/styles/page-styles/certification-overview.css">
+	<!-- LIBRARIES -->
 	<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+	<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+	<script src="/scripts/unslider-min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.js"></script>
 </head>
 <body>
-	<div class="nav">
-		<div class="nav-container">
-			<p class="nav-headline">MOS 2016</p>
-			<img id="nav-button" class="nav-icon" height="24" width="24" src="../images/grid-icon.png">
-			<p class="nav-aside-text">explore</p>
+	<div class="container">
+		<div class="nav">
+			<div class="nav-container">
+				<p class="nav-headline">MOS 2016 &#124; Certification Overview</p>
+				<img id="nav-button" class="nav-icon" height="24" width="24" src="/images/grid-icon.png">
+				<p class="nav-aside-text">explore</p>
+			</div>
 		</div>
-	</div>
-	<div class="slideout">
+		<div class="slideout">
 			<div class="slideout-tray">
-
 				<a href="" class="tray-headline">MOS 2016</a>
-				
 				<p class="tray-copy">Microsoft Office Specialist</p>
 				<p class="tray-copy">certifications through Certiport</p>
 				<p class="tray-copy">are helping academic institutions</p>
@@ -48,7 +57,7 @@
 				<div class="slideout-channel">
 					<div class="channel-header">
 						<div class="channel-image">
-							<img height="72" width="160" src="../images/mos-2016.png">
+							<img height="72" width="160" src="/images/mos-2016.png">
 						</div>
 						<p class="channel-headline">MOS 2016</p>
 					</div>
@@ -73,7 +82,7 @@
 				<div class="slideout-channel">
 					<div class="channel-header">
 						<div class="channel-image">
-							<img height="70" width="160" src="../images/key-benefits.png">
+							<img height="70" width="160" src="/images/key-benefits.png">
 						</div>
 						<p class="channel-headline">Key Benefits</p>
 					</div>
@@ -92,7 +101,7 @@
 				<div class="slideout-channel">
 					<div class="channel-header">
 						<div class="channel-image">
-							<img height="70" width="160" src="../images/make-mos-work.png">
+							<img height="70" width="160" src="/images/make-mos-work.png">
 						</div>
 						<p class="channel-headline">Make MOS Work</p>
 					</div>
@@ -118,7 +127,58 @@
 					</ul>
 				</div>
 			</div>
+		</div>
+		<div class="page-heading">
+			<div class="heading-content">
+				<p class="heading-headline">
+					Engage. Instruct. Empower.
+				</p>
+				<p class="heading-copy">
+					MOS certification gives people the power and the tools to chart<br />their own course, fulfill their ambition, realize their potential.
+				</p>
+			</div>
+		</div>
+		<div class="triple-highlight">
+			<div class="highlight-header">
+				<p class="highlight-headline">
+					SOAR. ACHIEVE HIGHER LEVELS OF CERTICATION.
+				</p>
+			</div>
+			<ul class="highlight-channels">
+				<li class="highlight-channel">
+					<img src="/images/cert-overview-trip-highlight-channel-1.jpg" alt="" class="channel-image">
+					<div class="channel-horizontal-rule"></div>
+					<p class="channel-header">
+						SPECIALIST
+					</p>
+					<p class="channel-copy">
+						Become certified as a specialist in<br />one of Microsoft's premiere office<br />technologies.
+					</p>
+				</li>
+				<li class="highlight-channel">
+					<img src="/images/cert-overview-trip-highlight-channel-2.jpg" alt="" class="channel-image">
+					<div class="channel-horizontal-rule"></div>
+					<p class="channel-header">
+						EXPERT
+					</p>
+					<p class="channel-copy">
+						Get a higher credential for two of the<br />job market's most in-demand<br />technologies: Word and Excel.
+					</p>
+				</li>
+				<li class="highlight-channel">
+					<img src="/images/cert-overview-trip-highlight-channel-3.jpg" alt="" class="channel-image">
+					<div class="channel-horizontal-rule"></div>
+					<p class="channel-header">
+						MASTER
+					</p>
+					<p class="channel-copy">
+						Achieve the highest MOS credential.<br />You must earn 4 specialist certifications,<br />plus 2 expert certifications.
+					</p>
+				</li>
+			</ul>
+		</div>
 	</div>
-	<script type="text/javascript" src="navigation-bar.js"></script>
+	<!-- MODULE SCRIPTS -->
+	<script src="/scripts/navigation-bar.js"></script>
+	<script src="/scripts/local-footer.js"></script>
 </body>
-</html>

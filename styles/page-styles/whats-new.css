@@ -1,0 +1,24 @@
+.asset-left {
+	margin-bottom: 56px;
+}
+.feature-pack {
+	margin-bottom: 56px;
+}
+.infographic-badging {
+	margin-bottom: 40px;
+}
+.credibility-band .band-body {
+	background-image: url("/images/whats-new-credibility-band-background.jpg");
+	height: 376px;
+	position: relative;
+}
+.credibility-band .band-copy {
+	color: #3b3b3c;
+	font-weight: 300;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	line-height: 32px;
+	position: absolute;
+	left: 650px;
+	top: 80px;
+}

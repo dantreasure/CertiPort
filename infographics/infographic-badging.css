@@ -1,0 +1,55 @@
+
+.infographic-badging {
+	width: 1000px;
+	height: 496px;
+	background-color: #2a3277;
+	position: relative;
+	background-image: url("/images/infographic-badging-horizontal-rule.png");
+	background-repeat: no-repeat;
+	background-position-y: 96px;
+	background-position-x: 30px;
+	position: relative;
+}
+.infographic-badging .small-box-top {
+	position: absolute;
+	right: 0;
+}
+.infographic-badging .small-box-bottom {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+.infographic-badging .infographic-body {
+	display: inline-block;
+}
+.infographic-badging .infographic-headline {
+	font-size: 24px;
+	font-weight: 700;
+	color: #ffffff;
+	margin-left: 30px;
+	margin-top: 56px;
+	margin-bottom: 32px;
+	font-family: 'Open Sans', sans-serif;
+}
+.infographic-badging .infographic-copy {
+	margin-left: 30px;
+	color: #c3c4cf;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 24px;
+	margin-bottom: 16px;
+}
+.infographic-badging .infographic-action {
+	height: 40px;
+	width: 160px;
+	position: absolute;
+	bottom: 40px;
+	left: 30px;
+	border: none;
+	cursor: pointer;
+	color: #ffffff;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #008641;
+	font-size: 16px;
+	font-weight: 400;
+}

@@ -1,0 +1,67 @@
+.feature-four {
+	width: 1000px;
+	height: 1000px;
+	background-color: #3b3b3c;
+	position: relative;
+}
+.feature-four .feature-header {
+	height: 104px;
+	background-image: url("/images/cert-overview-feature-four-horizontal-rule.png");
+	background-repeat: no-repeat;
+	background-position-y: 102px;
+	background-position-x: 470px;
+
+}
+.feature-four .feature-headline {
+	position: absolute;
+	text-align: center;
+	font-size: 24px;
+	color: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	top: 56px;
+	width: 100%;
+}
+.feature-four .feature-body {
+	margin-left: 57px;
+	margin-top: 40px;
+	width: 884px;
+}
+.feature-four .feature-block {
+	width: 200px;
+	height: 336px;
+	margin-bottom: 48px;
+	margin-right: 20px;
+	list-style-type: none;
+	float: left;
+}
+.feature-four .feature-body .feature-block:nth-child(4) {
+	margin-right: 0px;
+}
+.feature-four .feature-block-image {
+	margin-bottom: 24px;
+}
+.feature-four .feature-block-headline {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	color: #ffffff;
+	margin-bottom: 14px;
+}
+.feature-four .feature-block-copy {
+	color: #e1e1e1;
+	font-size: 16px;
+	line-height: 24px;
+}
+.feature-four .feature-action {
+	position: absolute;
+	bottom: 49px;
+	left: 353px;
+	width: 295px;
+	height: 40px;
+	border: 2px solid #ffffff;
+	background-color: #3b3b3c;
+	color: #ffffff;
+	font-size: 16px;
+	cursor: pointer;
+}

@@ -1,0 +1,41 @@
+.page-heading {
+	background-image: url("/images/licensing-page-heading-background.jpg");
+}
+.triple-highlight {
+	margin-bottom: 0px;
+}
+.triple-highlight .channel-action {
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 700;
+	color: #4967ac;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	margin-top: 16px;
+}
+.copy-well {
+	margin-top: 104px;
+}
+.copy-well .copy-icon {
+	display: block;
+	margin: 0 auto;
+}
+.copy-well .copy-header {
+	margin-top: 32px;
+}
+.feature-four {
+	margin-top: 72px;
+	height: 736px;
+}
+.feature-block-list {
+	margin-top: 16px;
+}
+.feature-block-item {
+	margin-left: 19px;
+	margin-top: 16px;
+	font-size: 16px;
+	color: #e1e1e1;
+	line-height: 24px;
+	font-family: 'Open Sans', sans-serif;
+	list-style-type: disc;
+}

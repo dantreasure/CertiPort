@@ -1,0 +1,29 @@
+.page-heading {
+	background-image: url("/images/mos-exams-page-heading-background.jpg");
+}
+.feature-pack {
+	height: 584px;
+}
+.feature-pack .feature-item {
+	float: left;
+	height: 148px;
+}
+.feature-pack .feature-item-headline {
+	line-height: 24px;
+}
+.feature-four {
+	margin-top: 72px;
+	height: 736px;
+}
+.feature-block-list {
+	margin-top: 16px;
+}
+.feature-block-item {
+	margin-left: 19px;
+	margin-top: 16px;
+	font-size: 16px;
+	color: #e1e1e1;
+	line-height: 24px;
+	font-family: 'Open Sans', sans-serif;
+	list-style-type: disc;
+}

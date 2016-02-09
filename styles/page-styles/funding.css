@@ -34,3 +34,37 @@
 .grid-three .download-action {
 	width: 414px;
 }
+.asset-left {
+	margin-top: 32px;
+	position: relative;
+}
+.asset-left .asset-copy-action {
+	width: 221px;
+	height: 40px;
+	border: 2px solid #4967ac;
+	background-color: #ffffff;
+	font-size: 16px;
+	color: #4967ac;
+	position: absolute;
+	left: 552px;
+	bottom: 41px;
+	cursor: pointer;
+}
+.grid-block {
+	background-image: url("/images/funding-grid-block-background.jpg");
+	margin-bottom: 0px;
+}
+.grid-block .sub-box-partners:first-child {
+	margin-top: 32px;
+}
+.grid-block .sub-box-partners {
+	margin-left: 20px;
+	font-size: 14px;
+	line-height: 16px;
+	font-weight: 700;
+	color: #ffffff;
+	margin-top: 8px;
+}
+.local-footer {
+	margin-top: 32px;
+}

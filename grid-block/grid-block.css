@@ -6,7 +6,7 @@
 }
 
 .grid-block .grid-header {
-	margin-left: 417px;
+	width: 1000px;
 	margin-top: 72px;
 	margin-bottom: 32px;
 	display: inline-block;
@@ -14,10 +14,11 @@
 	background-image: url("../images/horizontal-rule-white-med.png");
 	background-repeat: no-repeat;
 	background-position-y: 46px;
-	background-position-x: 53px;
+	background-position-x: 469px;
 }
 
 .grid-block .grid-headline {
+	text-align: center;
 	font-size: 24px;
 	color: #ffffff;
 	font-weight: 700;

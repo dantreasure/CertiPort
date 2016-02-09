@@ -1,0 +1,50 @@
+.voucher {
+	width: 1000px;
+	height: 352px;
+	background-image: url("/images/licensing-voucher-background.jpg");
+	position: relative;
+}
+.voucher .voucher-body {
+	position: absolute;	
+	width: 1000px;
+	height: 352px;
+}
+.voucher .voucher-headline {
+	float: right;
+	margin-right: 90px;
+	font-size: 24px;
+	font-weight: 700;
+	color: #3b3b3c;
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 49px;
+}
+.voucher .voucher-copy {
+	position: absolute;
+    right: 90px;
+	margin-top: 88px;
+	color: #000000;
+	font-size: 24px;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 32px;
+	text-align: right;
+}
+.voucher .voucher-action {
+	cursor: pointer;
+	margin-top: 239px;
+	position: absolute;
+	right: 90px;
+	width: 194px;
+	height: 40px;
+	background-color: #008641;
+	border: none;
+	color: #ffffff;
+	font-size: 16px;
+}
+.voucher .voucher-footer {
+	margin-top: 305px;
+	position: absolute;
+	right: 90px;
+	font-size: 14px;
+	color: #4967ac;
+	font-weight: 700;
+}

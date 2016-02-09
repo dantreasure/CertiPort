@@ -1,0 +1,36 @@
+
+.case-study {
+	height: 440px;
+	width: 1000px;
+	background-image: url("/images/licensing-case-study-background.jpg");
+	position: relative;
+}
+.case-study .case-body{
+	left: 90px;
+	top: 73px;
+	position: absolute;
+}
+.case-study .case-headline {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	line-height: 32px;
+	font-weight: 700;
+	color: #000000;
+}
+.case-study .case-copy {
+	font-family: 'Open Sans', sans-serif;
+	color: #3b3b3c;	
+	font-size: 24px;
+	line-height: 32px;
+	margin-top: 16px;	
+}
+.case-study .case-action {
+	width: 195px;
+	height: 40px;
+	background-color: #008641;
+	border: none;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;	
+	color: #ffffff;
+	margin-top: 48px;
+}

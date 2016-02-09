@@ -1,0 +1,36 @@
+.page-heading {
+	background-image: url("/images/funding-page-heading-background.jpg");
+}
+.page-heading .heading-content {
+	background-image: url("/images/page-header-horizontal-rule-white.png");
+}
+.page-heading .heading-headline {
+	color: #ffffff;
+}
+
+.page-heading .heading-copy {
+	color: #ffffff;
+}
+.copy-well {
+	margin-top: 64px;
+	margin-bottom: 0px;
+}
+.copy-well .copy-icon {
+	display: block;
+	margin: 0 auto;
+}
+.copy-well .copy-header {
+	margin-top: 32px;
+}
+.grid-three {
+	margin-top: 56px;
+}
+.grid-three .grid-body {
+	background-image: url("/images/funding-grid-three-perkins-background.jpg");
+}
+.grid-three .grid-top-copy {
+	margin-top: 66px;
+}
+.grid-three .download-action {
+	width: 414px;
+}

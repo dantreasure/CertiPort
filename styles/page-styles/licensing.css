@@ -23,19 +23,46 @@
 .copy-well .copy-header {
 	margin-top: 32px;
 }
-.feature-four {
+.feature-four.license-at-glance {
 	margin-top: 72px;
-	height: 736px;
+	height: 616;
 }
-.feature-block-list {
+.feature-four.license-at-glance .feature-block-list {
 	margin-top: 16px;
 }
-.feature-block-item {
+.feature-four.license-at-glance .feature-block-item {
 	margin-left: 19px;
-	margin-top: 16px;
+	margin-top: 8px;
 	font-size: 16px;
 	color: #e1e1e1;
 	line-height: 24px;
 	font-family: 'Open Sans', sans-serif;
 	list-style-type: disc;
+}
+
+.credibility-band .band-body {
+	background-image: url("/images/licensing-reviews-credibility-band-background.jpg");
+	height: 376px;
+	position: relative;
+}
+
+
+.credibility-band .quote-copy, 
+.credibility-band .quote-attribution,
+.credibility-band .quote-source {
+	color: #3b3b3c;
+}
+
+.credibility-band .band-slider {
+	float: right;
+}
+
+.credibility-band .band-body .unslider-nav > ol >li.unslider-active {
+	background-color: #3b3b3c;
+}
+.credibility-band .unslider-nav {
+	z-index: 20;
+}
+.copy-well.campus-license, .copy-well.statewide-license{
+	margin-top: 96px;
 }

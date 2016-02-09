@@ -66,3 +66,9 @@
 .copy-well.campus-license, .copy-well.statewide-license{
 	margin-top: 96px;
 }
+.copy-well.statewide-license {
+	margin-bottom: 0px;
+}
+.grid-three {
+	margin-top: 72px;
+}

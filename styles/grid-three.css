@@ -1,0 +1,94 @@
+
+.grid-three {
+	width: 1000px;
+	height: 496px;
+	position: relative;
+}
+.grid-three .grid-body-overlay {
+	width: 670px;
+	height: 496px;
+	position: absolute;
+	background-color: rgba(0,0,0,.9);
+	display: none;
+}
+.grid-three .grid-body-overlay .horizontal-rule {
+	background-image: url("/images/grid-three-overlay-horizontal-rule.png");
+	margin-top: 95px;
+	margin-left: 30px;
+	height: 2px;
+	width: 610px;
+}
+.grid-three .grid-body-copy {
+	color: #e7e7e8;
+	font-size: 16px;
+	line-height: 24px;
+	margin-left: 30px;
+	margin-top: 16px;
+}
+.grid-three .download-action {
+	width: 170px;
+	height: 40px;
+	background-color: #008641;
+	border: none;
+	font-size: 16px;
+	color: #ffffff;
+	font-weight: 400;
+	margin-top: 111px;
+	margin-left: 29px;
+	cursor: pointer;
+}
+.grid-three .visit-action {
+	margin-left: 21px;
+	width: 170px;
+	height: 40px;
+	font-size: 16px;
+	color: #ffffff;
+	font-weight: 400;
+	border: 1px solid #ffffff;	
+	background-color: rgba(0,0,0,0);
+	margin-top: 111px;	
+	cursor: pointer;
+}
+.grid-three .grid-body {
+	width: 670px;
+	height: 496px;
+	float: left;
+	background-image: url("/images/licensing-grid-three-redcarpet-background.jpg");
+	z-index: 1;
+}
+.grid-three .grid-body-headline {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 24px;
+	color: #ffffff;
+	position: absolute;
+	top: 50px;
+	left: 30px;
+	z-index: 2;
+}
+.grid-three .grid-top, .grid-bottom{
+	float: right;
+	height: 248px;
+	width: 330px;
+}
+.grid-three .grid-top {
+	background: #2a3277;
+}
+.grid-three .grid-bottom {
+	background: #4967ac;
+}
+.grid-three .grid-top-copy, .grid-bottom-copy {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 24px;
+	color: #ffffff;
+	line-height: 32px;
+}
+.grid-three .grid-top-copy {
+	margin-top: 34px;
+	margin-left: 30px;
+}
+.grid-three .grid-bottom-copy {
+	margin-top: 66px;
+	margin-left: 30px;
+}

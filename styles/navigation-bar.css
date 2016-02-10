@@ -1,16 +1,11 @@
-/*body * {
-	border: 1px solid black;
-}*/
-
 .nav {
 	width: 1000px;
 	height: 88px;
 	background: #4967AC;
 	position: relative;
+	z-index: 20;
 }
-	#nav-button {
-		cursor: pointer;
-	}	
+		
 	.nav .nav-container {
 		width: 780px;
 		position: absolute;
@@ -120,6 +115,9 @@
 	font-size: 18px;
 	font-weight: 700;
 	color: #4967ac;
+	font-family: 'Open Sans', sans-serif;
+	text-decoration: none;
+	display: inline-block;
 }
 
 
@@ -137,4 +135,50 @@
 	color: #464646;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
+}
+/* entire container, keeps perspective */
+.nav .flip-container {
+	perspective: 1000;
+	float: right;
+	cursor: pointer;
+}
+	/* flip the pane when hovered */
+	.flip-container.flipped .flipper {
+		transform: rotateY(180deg);
+	}
+
+.nav .flip-container, .front, .back {
+	width: 24px;
+	height: 24px;
+}
+
+/* flip speed goes here */
+.nav .flipper {
+	width: 24px;
+	height: 24px;
+	transition: 0.6s;
+	transform-style: preserve-3d;
+
+	position: relative;
+}
+
+/* hide back of pane during swap */
+.nav .front, .back {
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* front pane, placed above back */
+.nav .front {
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.nav .back {
+	transform: rotateY(180deg);
 }

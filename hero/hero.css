@@ -37,11 +37,11 @@
 
 .hero .unslider-arrow.next {
 	right: 0;
-	background-image: url("../images/hero-slider-arrow-right.png");
+	background-image: url("../../images/hero-slider-arrow-right.png");
 }
 
 .hero .unslider-arrow.prev {
-	background-image: url("../images/hero-slider-arrow-left.png");	
+	background-image: url("../../images/hero-slider-arrow-left.png");	
 }
 
 .hero .unslider-nav {

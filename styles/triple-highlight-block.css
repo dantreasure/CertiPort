@@ -8,7 +8,7 @@
 	height: 48px;
 	margin-bottom: 24px;
 	margin-left: 260px;
-	background-image: url("../images/triple-highlight-horizontal-rule.png");
+	background-image: url("../../images/triple-highlight-horizontal-rule.png");
 	background-repeat: no-repeat;
 	background-position-y: 46px;
 	background-position-x: 210px;
@@ -36,7 +36,7 @@
 
 .triple-highlight .channel-horizontal-rule {
 	height: 8px;
-	background-image: url("../images/trip-highlight-channel-horizontal-rule.png");
+	background-image: url("../../images/trip-highlight-channel-horizontal-rule.png");
 	background-repeat: no-repeat;
 	background-position-y: 6px;
 	background-position-x: 80px;

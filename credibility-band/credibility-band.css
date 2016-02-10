@@ -6,7 +6,7 @@
 	background-color: #4967ac;
 	height: 80px;
 	padding-top: 40px;
-	background-image: url("../images/credibility-band-header-horizontal-rule.png");
+	background-image: url("../../images/credibility-band-header-horizontal-rule.png");
 	background-repeat: no-repeat;
 	background-position-x: 470px;
 	background-position-y: 88px;
@@ -19,7 +19,7 @@
 	font-weight: 700;
 }
 .band-body {
-	background-image: url("../images/homepage-credibility-band-background.jpg");
+	background-image: url("../../images/homepage-credibility-band-background.jpg");
 	height: 376px;
 	position: relative;
 }

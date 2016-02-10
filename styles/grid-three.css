@@ -10,13 +10,15 @@
 	position: absolute;
 	background-color: rgba(0,0,0,.9);
 	display: none;
+	overflow: hidden;
 }
 .grid-three .grid-body-overlay .horizontal-rule {
 	background-image: url("../../images/grid-three-overlay-horizontal-rule.png");
+	background-color: #ffffff;
 	margin-top: 95px;
 	margin-left: 30px;
 	height: 2px;
-	width: 610px;
+	width: 0px;
 }
 .grid-three .grid-body-copy {
 	color: #e7e7e8;
@@ -24,6 +26,8 @@
 	line-height: 24px;
 	margin-left: 30px;
 	margin-top: 16px;
+	position: relative;
+	left: 650px;
 }
 .grid-three .download-action {
 	width: 170px;
@@ -36,6 +40,11 @@
 	margin-top: 111px;
 	margin-left: 29px;
 	cursor: pointer;
+	position: relative;
+	left: -250px;
+}
+.grid-three .download-action {
+	left: -450px;	
 }
 .grid-three .visit-action {
 	margin-left: 21px;
@@ -48,6 +57,8 @@
 	background-color: rgba(0,0,0,0);
 	margin-top: 111px;	
 	cursor: pointer;
+	position: relative;
+	left: -400px;
 }
 .grid-three .grid-body {
 	width: 670px;

@@ -1,5 +1,5 @@
 .page-heading {
-	background-image: url("/images/mos-exams-page-heading-background.jpg");
+	background-image: url("../../images/mos-exams-page-heading-background.jpg");
 }
 .feature-pack {
 	height: 584px;
@@ -31,7 +31,7 @@
 	margin-top: 32px;
 }
 .credibility-band .band-body {
-	background-image: url("/images/whats-new-credibility-band-background.jpg");
+	background-image: url("../../images/whats-new-credibility-band-background.jpg");
 	height: 376px;
 	position: relative;
 }

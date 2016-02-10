@@ -1,7 +1,7 @@
 .page-heading {
 	width: 1000px;
 	height: 360px;
-	background-image: url("/images/whats-new-page-heading-background.jpg");
+	background-image: url("../../images/whats-new-page-heading-background.jpg");
 	position: relative;
 	margin-bottom: 56px;
 }
@@ -11,7 +11,7 @@
 	margin-left: 142px;
 	height: 138px;
 	margin-top: 102px;
-	background-image: url("/images/page-header-horizontal-rule.png");
+	background-image: url("../../images/page-header-horizontal-rule.png");
 	background-repeat: no-repeat;
 	background-position-y: 0px;
 }

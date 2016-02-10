@@ -12,7 +12,7 @@
 	display: none;
 }
 .grid-three .grid-body-overlay .horizontal-rule {
-	background-image: url("/images/grid-three-overlay-horizontal-rule.png");
+	background-image: url("../../images/grid-three-overlay-horizontal-rule.png");
 	margin-top: 95px;
 	margin-left: 30px;
 	height: 2px;
@@ -53,7 +53,7 @@
 	width: 670px;
 	height: 496px;
 	float: left;
-	background-image: url("/images/licensing-grid-three-redcarpet-background.jpg");
+	background-image: url("../../images/licensing-grid-three-redcarpet-background.jpg");
 	z-index: 1;
 }
 .grid-three .grid-body-headline {

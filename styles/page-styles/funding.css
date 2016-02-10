@@ -1,8 +1,8 @@
 .page-heading {
-	background-image: url("/images/funding-page-heading-background.jpg");
+	background-image: url("../../images/funding-page-heading-background.jpg");
 }
 .page-heading .heading-content {
-	background-image: url("/images/page-header-horizontal-rule-white.png");
+	background-image: url("../../images/page-header-horizontal-rule-white.png");
 }
 .page-heading .heading-headline {
 	color: #ffffff;
@@ -26,7 +26,7 @@
 	margin-top: 56px;
 }
 .grid-three .grid-body {
-	background-image: url("/images/funding-grid-three-perkins-background.jpg");
+	background-image: url("../../images/funding-grid-three-perkins-background.jpg");
 }
 .grid-three .grid-top-copy {
 	margin-top: 66px;
@@ -51,7 +51,7 @@
 	cursor: pointer;
 }
 .grid-block {
-	background-image: url("/images/funding-grid-block-background.jpg");
+	background-image: url("../../images/funding-grid-block-background.jpg");
 	margin-bottom: 0px;
 }
 .grid-block .sub-box-partners:first-child {

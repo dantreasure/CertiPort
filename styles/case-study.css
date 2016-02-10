@@ -2,7 +2,7 @@
 .case-study {
 	height: 440px;
 	width: 1000px;
-	background-image: url("/images/licensing-case-study-background.jpg");
+	background-image: url("../../images/licensing-case-study-background.jpg");
 	position: relative;
 }
 .case-study .case-body{

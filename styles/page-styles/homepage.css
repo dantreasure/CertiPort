@@ -1,11 +1,11 @@
 .hero .hero-slider > ul > li:nth-child(1) {
-	background-image: url(/images/homepage-hero-1-background.jpg);
+	background-image: url(../../images/homepage-hero-1-background.jpg);
 }
 .hero .hero-slider > ul > li:nth-child(2) {
-	background-image: url(/images/homepage-hero-2-background.jpg);
+	background-image: url(../../images/homepage-hero-2-background.jpg);
 }
 .hero .hero-slider > ul > li:nth-child(3) {
-	background-image: url(/images/homepage-hero-3-background.jpg);
+	background-image: url(../../images/homepage-hero-3-background.jpg);
 }
 .hero .hero-headline.white, .hero .hero-copy.white, .hero .hero-action-text.white {
 	color: #ffffff;

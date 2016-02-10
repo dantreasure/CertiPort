@@ -6,7 +6,7 @@
 }
 .feature-four .feature-header {
 	height: 104px;
-	background-image: url("/images/cert-overview-feature-four-horizontal-rule.png");
+	background-image: url("../../images/cert-overview-feature-four-horizontal-rule.png");
 	background-repeat: no-repeat;
 	background-position-y: 102px;
 	background-position-x: 470px;

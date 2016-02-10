@@ -40,7 +40,7 @@
 }
 .asset-left .asset-copy-action {
 	width: 221px;
-	height: 40px;
+	letter-spacing: -0.035em;
 	border: 2px solid #4967ac;
 	background-color: #ffffff;
 	font-size: 16px;

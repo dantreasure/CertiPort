@@ -1,7 +1,7 @@
 .grid-block {
 	width: 1000px;
 	height: 648px;
-	background-image: url("../../images/mos-impact.jpg");
+	background-image: url("../images/mos-impact.jpg");
 	margin-bottom: 56px;
 }
 
@@ -11,7 +11,7 @@
 	margin-bottom: 32px;
 	display: inline-block;
 	height: 48px;
-	background-image: url("../../images/horizontal-rule-white-med.png");
+	background-image: url("../images/horizontal-rule-white-med.png");
 	background-repeat: no-repeat;
 	background-position-y: 46px;
 	background-position-x: 469px;
@@ -38,7 +38,7 @@
 	background-color: #ebebeb;
 	position: relative;
 	z-index: 10;
-	background-image: url("../../images/grid-block-big-background.png")
+	background-image: url("../images/grid-block-big-background.png")
 }
 
 .grid-block #content-left-background{
@@ -99,7 +99,7 @@
 	z-index: 11;
 	margin-bottom: 20px;
 	position: relative;
-	background-image: url("../../images/grid-block-wide-background.png");
+	background-image: url("../images/grid-block-wide-background.png");
 }
 .grid-block .sub-box-content {
 	position: absolute;
@@ -116,7 +116,7 @@
 .grid-block .sub-box.left {
 	position: relative;
 	margin-right: 20px;
-	background-image: url("../../images/grid-block-left-background.png");
+	background-image: url("../images/grid-block-left-background.png");
 }
 .grid-block #grid-left-background{
 	position: absolute;
@@ -128,7 +128,7 @@
 
 .grid-block .sub-box.right {
 	position: relative;
-	background-image: url("../../images/grid-block-right-background.png");
+	background-image: url("../images/grid-block-right-background.png");
 }
 .grid-block #grid-right-background{
 	position: absolute;

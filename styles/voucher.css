@@ -1,7 +1,7 @@
 .voucher {
 	width: 1000px;
 	height: 352px;
-	background-image: url("../../images/licensing-voucher-background.jpg");
+	background-image: url("../images/licensing-voucher-background.jpg");
 	position: relative;
 }
 .voucher .voucher-body {

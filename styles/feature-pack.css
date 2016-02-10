@@ -4,7 +4,7 @@
 }
 .feature-pack .feature-header {
 	height: 48px;
-	background-image: url("../../images/feature-pack-horizontal-rule.png");
+	background-image: url("../images/feature-pack-horizontal-rule.png");
 	background-repeat: no-repeat;
 	background-position-y: 46px;
 	background-position-x: 470px;

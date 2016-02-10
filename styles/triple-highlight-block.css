@@ -1,13 +1,11 @@
 .triple-highlight {
 	width: 1000px;
 	height: 672px;
-	margin-bottom: 72px;
 }
 
 .triple-highlight .highlight-header {
 	display: inline-block;
 	height: 48px;
-	margin-top: 24px;
 	margin-bottom: 24px;
 	margin-left: 260px;
 	background-image: url("../images/triple-highlight-horizontal-rule.png");

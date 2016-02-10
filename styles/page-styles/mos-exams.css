@@ -2,6 +2,7 @@
 	background-image: url("/images/mos-exams-page-heading-background.jpg");
 }
 .feature-pack {
+	margin-top: 64px;
 	height: 584px;
 }
 .feature-pack .feature-item {

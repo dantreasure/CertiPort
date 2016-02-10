@@ -1,7 +1,6 @@
 .link-block {
-	width: 1000px;
+	width: 1004px;
 	height: 440px;
-	margin-bottom: 72px;
 }
 
 .link-block .block-body {
@@ -13,7 +12,7 @@
 	float: right;
 	width: 220px;
 	height: 440px;
-	background-color: #ebebeb;
+	background-color: #8dc63f;
 }
 .link-block .body-row {
 	width: 100%;
@@ -39,7 +38,7 @@
 
 .link-block .channel-headline {
 	font-family: 'Open Sans', sans-serif;
-	color: #4967ac;
+	color: #3b3b3c;
 	font-weight: 700;
 	font-size: 18px;
 	margin-left: 50px;
@@ -74,7 +73,7 @@
 	font-size: 14px;
 	font-weight: 700;
 	font-family: 'Open Sans', sans-serif;
-	color: #10a049;
+	color: #ffffff;
 	margin-top: 24px;
 	margin-bottom: 16px;
 }
@@ -84,23 +83,24 @@
 .link-block .aside-copy {
 	margin-left: 20px;
 	margin-bottom: 32px;
-	color: #464646;
+	color: #ffffff;
 	font-size: 20px;
 	line-height: 28px;
 	font-weight: 300;
 }
-
-.link-block .aside-action {
+.link-block .aside-rule {
+	width: 40px;
+	height: 3px;
+	background-color: #ffffff;
 	margin-left: 20px;
-	width: 180px;
-	height: 48px;
-	background-color: #10a049;
-	border: 0px;
 }
 
 .link-block .aside-action-link {
+	margin-left: 20px;
+	margin-top: 12px;
 	text-decoration: none;
 	color: #ffffff;
 	font-size: 16px;
 	font-weight: 600;
+	font-family: 'Open Sans', sans-serif;
 }

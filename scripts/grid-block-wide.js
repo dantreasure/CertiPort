@@ -19,29 +19,29 @@ $(document).ready(function(){
 		if(!entered){
 			entered = true;
 			if(event.pageY >= topLine && event.pageY < topGutter){
-				$("#grid-wide-background").velocity({"top": "210px", height: "0px"});
+				$("#grid-wide-background").velocity({"top": "210px", height: "0px"}, 200);
 				egress = "up";
 			} else if (event.pageY <= bottomLine && event.pageY > bottomGutter){
-				$("#grid-wide-background").velocity({"bottom": "210px", height: "0px"});
+				$("#grid-wide-background").velocity({"bottom": "210px", height: "0px"}, 200);
 				egress = "down";
 			} else if (event.pageX >= leftLine && event.pageX < leftGutter){
-				$("#grid-wide-background").velocity({"left": "460px", width: "0px"});
+				$("#grid-wide-background").velocity({"left": "460px", width: "0px"}, 200);
 				egress = "left";
 			} else if (event.pageX <= rightLine && event.pageX >= rightGutter){
-				$("#grid-wide-background").velocity({"right": "460px", width: "0px"});
+				$("#grid-wide-background").velocity({"right": "460px", width: "0px"}, 200);
 				egress = "right";
 			}
 		} else {
 			entered = false;
 			switch (egress) {
 				case "up":
-					$("#grid-wide-background").velocity({"top": "0px", height: "210px"});
+					$("#grid-wide-background").velocity({"top": "0px", height: "210px"}, 200);
 				case "down":
-					$("#grid-wide-background").velocity({"bottom": "0px", height: "210px"});
+					$("#grid-wide-background").velocity({"bottom": "0px", height: "210px"}, 200);
 				case "left":
-					$("#grid-wide-background").velocity({"left": "0px", width: "460px"});
+					$("#grid-wide-background").velocity({"left": "0px", width: "460px"}, 200);
 				case "right":
-					$("#grid-wide-background").velocity({"right": "0px", width: "460px"});
+					$("#grid-wide-background").velocity({"right": "0px", width: "460px"}, 200);
 			}
 		}
 

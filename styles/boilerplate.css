@@ -26,6 +26,15 @@ body {
 .container {
     margin: 0 auto;
     width: 1000px;
+    position: relative;
+}
+.global-overlay {
+    position: absolute;
+    background-color: rgba(0,0,0,.4);
+    width: 1000px;
+    height: 100%;
+    display: none;
+    z-index: 9;
 }
 
 p {

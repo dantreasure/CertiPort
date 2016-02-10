@@ -1,18 +1,7 @@
 $(document).ready(function(){
-	var rotated = false;
-	$("#nav-button").click(function(){
-		$('.slideout').slideToggle("slow");
-		
-		if(!rotated){
-			$(this).velocity({
-				rotateZ: "360deg"
-			},750);
-			rotated = true;
-		} else {
-			$(this).velocity({
-				rotateZ: "0deg"
-			},750);
-			rotated = false;
-		}
+	$(".flip-container").click(function(){
+		$(this).toggleClass("flipped")
+		$('.slideout').slideToggle(300);
+		$(".global-overlay").fadeToggle(300);	
 	});
 });

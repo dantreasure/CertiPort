@@ -1,5 +1,7 @@
 $(document).ready(function(){
-	$("#nav-button").click(function(){
-		$('.slideout').slideToggle("slow");
+	$(".flip-container").click(function(){
+		$(this).toggleClass("flipped")
+		$('.slideout').slideToggle(300);
+		$(".global-overlay").fadeToggle(300);	
 	});
 });

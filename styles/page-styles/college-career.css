@@ -1,0 +1,16 @@
+.page-heading {
+	background-image: url("/images/college-career-page-heading-background.jpg");
+}
+.copy-well .copy-icon {
+	display: block;
+	margin: 0 auto;
+}
+.copy-well .copy-header {
+	margin-top: 32px;
+}
+.copy-well .content-copy-indent {
+	margin-left: 36px;
+}
+.copy-well .important-copy {
+	font-weight: 700;
+}

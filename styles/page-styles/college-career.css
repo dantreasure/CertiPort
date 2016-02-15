@@ -10,7 +10,58 @@
 }
 .copy-well .content-copy-indent {
 	margin-left: 36px;
+	margin-bottom: 16px;
+	margin-top: 24px;
+}
+.copy-well .indented-copy {
+	font-size: 16px;
+	line-height: 24px;
+	margin-bottom: 8px;
 }
 .copy-well .important-copy {
 	font-weight: 700;
+}
+.copy-well .content-cta {
+	color: #4967ac;
+	font-size: 14px;
+	font-weight: 700;
+	font-family: 'Open Sans', sans-serif;
+	text-decoration: none;
+}
+.grid-three .grid-body-headline {
+	color: #3b3b3c;
+}
+.grid-three .grid-body {
+	background-image: url("/images/college-career-grid-three-background.jpg")
+}
+.grid-three .grid-top-copy {
+	margin-top: 66px;
+}
+.grid-three .grid-body-copy.attribution {
+	margin-top: 32px;	
+}
+.asset-left {
+	margin-top: 32px;
+}
+.asset-left .asset-copy {
+	padding-top: 32px;
+}
+.asset-left .asset-copy-headline {
+	line-height: 32px;
+	margin-bottom: 16px;
+	height: 78px;
+	background-position-y: 76px;
+}
+.asset-left .asset-left {
+	padding-top: 30px;
+}
+.asset-left .asset-copy-cta {
+	font-family: 'Open Sans', sans-serif;	
+	color: #4967ac;
+	margin-left: 44px;
+	font-size: 16px;
+	margin-top: 10px;
+}
+.local-footer {
+	margin-top: 48px;
 }

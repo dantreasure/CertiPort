@@ -1,0 +1,48 @@
+.page-heading {
+	background-image: url("/images/school-success-page-heading-background.jpg");
+}
+.grid-three .grid-body {
+	background-image: url("/images/school-success-grid-three-background.jpg");
+}
+.grid-three .grid-body-headline {
+	color: #ffffff;
+}
+.grid-three .grid-body-copy.subhead {
+	font-weight: 700;
+	margin-top: 8px;
+}
+.grid-three .grid-body-copy.subhead:first-of-type {
+	font-weight: 700;
+	margin-top: 16px;
+}
+.grid-three .grid-body-list {
+	margin-left: 30px;
+
+	position: relative;
+	left: 650px;
+}
+.grid-three .grid-body-item {
+	color: #e7e7e8;
+	font-size: 16px;
+	line-height: 24px;
+	font-family: 'Open Sans', sans-serif;
+	margin-left: 44px;
+}
+.grid-three .download-action {
+	margin-top: 40px;
+}
+.grid-block {
+	background-image: url("/images/school-success-grid-block-background.jpg");
+}
+.grid-block .big-box-icon {
+	margin-top: 48px;
+}
+.grid-block .copy.quote {
+	font-style: italic;
+}
+.grid-block .attribution {
+	font-size: 16px;
+	color: #636466;
+	margin-top: 12px;
+
+}

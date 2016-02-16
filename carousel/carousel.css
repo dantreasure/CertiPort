@@ -1,0 +1,74 @@
+.carousel {
+	width: 1000px;
+}
+.carousel-header {
+	height: 48px;
+	background-image: url("/images/carousel-horizontal-rule-green.png");
+	background-repeat: no-repeat;
+	background-position-y: 46px;
+	background-position-x: 470px;
+}
+.carousel-headline {
+	text-align: center;
+	color: #008641;
+	font-size: 24px;
+	font-weight: 700;
+}
+.carousel-infographic {
+	margin: 0 auto;
+	display: block;
+}
+.carousel-slider {
+	margin-top: 26px;
+}
+.carousel .unslider {
+	position: relative;
+}
+.carousel .unslider-arrow{
+	position: absolute;
+	height: 48px;
+	width: 48px;
+	top: 200;
+	background-color: #89898a;
+	line-height: 0; 
+    font-size: 0;
+    color: transparent; 
+    background-repeat: no-repeat;
+    background-position-y: 14px;
+    background-position-x: 18px;
+    border-radius: 24px;
+    transition: background-color 0.25s ease;
+}
+.carousel .unslider-arrow:hover{
+	background-color: rgba(137,137,138,.7);
+}
+.carousel .unslider-arrow.next {
+	right: 0;
+	background-image: url("../images/hero-slider-arrow-right.png");
+}
+
+.carousel .unslider-arrow.prev {
+	background-image: url("../images/hero-slider-arrow-left.png");	
+}
+.carousel .unslider-nav > ol {
+	display: inline-block;
+	margin-left: 461px;
+	margin-top: 22px;
+}
+.carousel .unslider-nav > ol >li {
+	display: inline-block;
+	height: 16px;
+	width: 16px;
+	border: 3px solid #e7e7e8;
+	border-radius: 12px;
+	line-height: 0;	 
+    font-size: 0;
+    color: transparent;
+    cursor: pointer;
+}
+.carousel .unslider-nav > ol >li:nth-child(1),.carousel .unslider-nav > ol >li:nth-child(2){
+	margin-right: 6px;
+}
+.carousel .unslider-nav > ol >li.unslider-active {
+	background-color: #e7e7e8;
+}

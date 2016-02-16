@@ -1,0 +1,19 @@
+.page-heading {
+	background-image: url("/images/student-success-page-heading-background.jpg");
+}
+.grid-three .grid-body {
+	background-image: url("/images/student-success-grid-three-background.jpg");
+}
+.grid-three .grid-body-headline {
+	color: #3b3b3c;
+}
+.grid-three .download-action {
+	margin-top: 192px;
+	width: 140px;
+}
+.grid-three {
+	margin-top: 64px;
+}
+.local-footer {
+	margin-top: 32px;
+}

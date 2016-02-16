@@ -32,6 +32,8 @@
 	margin-top: 40px;
 }
 .grid-block {
+	margin-top: 32px;
+	margin-bottom: 32px;
 	background-image: url("/images/school-success-grid-block-background.jpg");
 }
 .grid-block .big-box-icon {
@@ -44,5 +46,27 @@
 	font-size: 16px;
 	color: #636466;
 	margin-top: 12px;
-
+}
+.grid-block .sub-box.wide .sub-box-headline {
+	margin-top: 48px;
+}
+.grid-block .sub-box-copy.quote {
+	font-style: italic;
+	color: #e7e7e8;
+}
+.grid-block .sub-box-copy.attribution {
+	color: #e7e7e8;	
+}
+.grid-block .sub-box-cta {
+	text-decoration: none;
+	font-weight: 700;
+	color: #ffffff;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	margin-left: 20px;
+	margin-top: 16px;
+	cursor: pointer;
+}
+.grid-block .grid-content.left {
+	background-image: url("/images/school-success-grid-left-background.jpg");
 }

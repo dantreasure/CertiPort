@@ -1,0 +1,13 @@
+.page-heading {
+	background-image: url("/images/classroom-examples-page-heading-background.jpg");
+}
+.page-heading .heading-content {
+	background-image: url("/images/page-header-horizontal-rule-white.png");
+}
+.page-heading .heading-headline {
+	color: #ffffff;
+}
+
+.page-heading .heading-copy {
+	color: #ffffff;
+}

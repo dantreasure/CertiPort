@@ -1,5 +1,6 @@
 .page-heading {
 	background-image: url("/images/classroom-examples-page-heading-background.jpg");
+	margin-bottom: 0px;
 }
 .page-heading .heading-content {
 	background-image: url("/images/page-header-horizontal-rule-white.png");
@@ -10,4 +11,58 @@
 
 .page-heading .heading-copy {
 	color: #ffffff;
+}
+.asset-left {
+	margin-top: 32px;
+	margin-bottom: 0px
+}
+.asset-left .asset-copy {
+	padding-top: 16px;
+}
+.asset-left .asset-copy-headline {
+	line-height: 32px;
+	height: 80px;
+	background-position-y: 78px;
+	margin-bottom: 0px;
+}
+.asset-left .asset-copy-subhead {
+	margin-top: 16px;
+}
+.triple-highlight {
+	margin-top: 64px;
+}
+.triple-highlight .highlight-header {
+	display: block;
+	margin-left: 0px;
+	background-position-x: 470px;
+}
+.triple-highlight .highlight-headline {
+	text-align: center;
+}
+.triple-highlight .channel-action {
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 700;
+	color: #4967ac;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	margin-top: 16px;
+}
+.grid-three {
+	margin-top: 80px;
+}
+.grid-three .grid-body-headline {
+	color: #3b3b3c;
+}
+.grid-three .grid-body {
+	background-image: url("/images/classroom-examples-grid-three-background.jpg");
+}
+.grid-three .grid-top-copy {
+	margin-top: 64px;
+}
+.grid-three .download-action {
+	width: 290px;
+}
+.local-footer {
+	margin-top: 32px;
 }

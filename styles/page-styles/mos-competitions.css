@@ -1,0 +1,81 @@
+.page-heading {
+	background-image: url("/images/mos-competitions-page-heading-background.jpg");
+	margin-bottom: 0px;
+}
+.page-heading .heading-content {
+	background-image: url("/images/page-header-horizontal-rule-white.png");
+}
+.page-heading .heading-headline {
+	color: #ffffff;
+}
+
+.page-heading .heading-copy {
+	color: #ffffff;
+}
+.asset-left {
+	margin-top: 32px;
+	position: relative;
+}
+.asset-left .asset-copy-headline {
+	margin-bottom: 0px;
+}
+.asset-left .asset-copy-subhead {
+	margin-top: 16px;
+}
+.asset-left .asset-copy-action {
+	width: 156px;
+	letter-spacing: -0.035em;
+	border: 2px solid #4967ac;
+	background-color: #ffffff;
+	font-size: 16px;
+	color: #4967ac;
+	position: absolute;
+	left: 602px;
+	bottom: 24px;
+	cursor: pointer;
+}
+.grid-three .grid-body {
+	background-image: url("/images/mos-competitions-grid-three-background.jpg");
+}
+.grid-three .grid-body-headline {
+	color: #3b3b3c;
+}
+.grid-three .grid-top-copy {
+	margin-top: 66px;
+}
+.grid-three .grid-bottom {
+	background-image: url("/images/globe-overlay.png");
+	background-repeat: no-repeat;
+}
+.grid-three .download-action {
+	width: 208px;
+}
+.feature-four {
+	margin-top: 32px;
+	height: 688px;
+}
+.feature-four .feature-block-cta {
+	font-family: 'Open Sans', sans-serif;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 600;
+	margin-top: 24px;
+}
+.credibility-band {
+	margin-top: 32px;
+}
+.credibility-band .band-body {
+	background-image: url("/images/whats-new-credibility-band-background.jpg");
+	height: 376px;
+	position: relative;
+}
+.credibility-band .band-copy {
+	color: #3b3b3c;
+	font-weight: 300;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	line-height: 32px;
+	position: absolute;
+	left: 650px;
+	top: 80px;
+}

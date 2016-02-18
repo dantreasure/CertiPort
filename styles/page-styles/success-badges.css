@@ -1,0 +1,36 @@
+.page-heading {
+	background-image: url("/images/success-badges-page-heading-background.jpg");
+	margin-bottom: 0px;
+}
+.copy-well {
+	margin-top: 64px;
+	margin-bottom: 0px;
+}
+.copy-well .copy-icon {
+	display: block;
+	margin: 0 auto;
+}
+.copy-well .copy-header {
+	margin-top: 32px;
+}
+.feature-four {
+	margin-top: 100px;
+	height: 776px;
+}
+.feature-four .feature-block {
+	margin-bottom: 0px;
+	height: 312px;
+}
+.feature-four .feature-block-cta {
+	font-family: 'Open Sans', sans-serif;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 600;
+	margin-top: 24px;
+}
+.asset-left {
+	margin-top: 32px;
+}
+.asset-left .asset-copy-subhead {
+	margin-top: 10px;
+}

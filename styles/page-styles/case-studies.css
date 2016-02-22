@@ -1,0 +1,87 @@
+.page-heading {
+	background-image: url("/images/case-studies-page-heading-background.jpg");
+}
+.page-heading .heading-content {
+	background-image: url("/images/page-header-horizontal-rule-white.png");
+}
+.page-heading .heading-headline {
+	color: #ffffff;
+}
+.page-heading .heading-copy {
+	color: #ffffff;
+}
+.grid-three .grid-body-headline {
+	line-height: 32px;
+}
+.grid-three .grid-body {
+	background-image: url("/images/case-studies-grid-three-background.jpg")
+}
+.grid-three .grid-top-copy {
+	margin-top: 96px;
+}
+.grid-three .grid-top-attribution {
+	margin-top: 16px;
+	margin-left: 30px;
+	color: #ffffff;
+	font-size: 14px;
+}
+.grid-three .grid-top-attribution .author {
+	font-weight: 700;
+}
+.grid-three .grid-body-overlay .horizontal-rule {
+	margin-top: 128px;
+}
+.grid-three .grid-body-list {
+	margin-top: 16px;
+	left: 650px;
+	margin-left: 50px;
+	position: relative;	
+}
+.grid-three .grid-body-item {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	color: #e7e7e8;
+}
+.grid-three .grid-body-item span{
+	position: relative; left: 38px;	
+}
+.grid-three .download-action {
+	margin-top: 80px;
+	width: 212px;
+}
+.case-study.oak-park {
+	margin-top: 32px;
+	background-image: url("/images/oak-park-case-study-background.jpg");
+}
+.case-study.oak-park .case-attribution {
+	font-size: 16px;
+	line-height: 24px;
+	margin-top: 12px;
+}
+.case-study.oak-park .case-action {
+	margin-top: 30px;
+	width: 240px;
+}
+.voucher.edison-jobs {
+	height: 440px;
+	margin-top: 32px;
+	background-image: url("/images/edison-jobs-voucher-background.jpg")
+}
+.voucher.edison-jobs .voucher-attribution {
+	position: absolute;
+    right: 90px;
+	margin-top: 276px;
+	color: #000000;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 24px;
+	text-align: right;
+}
+.voucher.edison-jobs .voucher-action {
+	margin-top: 352px;
+	width: 240px;
+}
+.local-footer {
+	margin-top: 100px;
+}

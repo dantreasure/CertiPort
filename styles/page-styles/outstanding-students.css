@@ -1,0 +1,55 @@
+.page-heading {
+	background-image: url("/images/outstanding-students-page-heading-background.jpg");
+	margin-bottom: 0px;
+}
+.grid-block {
+	margin-top: 32px;
+	background-image: url("/images/outstanding-students-grid-block-background.jpg")
+}
+.grid-block .copy {
+	font-style: italic;
+}
+.grid-block .big-box-icon {
+	margin-top: 64px;
+}
+.grid-block .grid-content.left {
+	background-image: url("/images/outstanding-students-grid-block-left-background.jpg")
+}
+.grid-block .sub-box.left .sub-box-headline {
+	margin-top: 32px;
+}
+.grid-block .sub-box.right .sub-box-headline.cta {
+	font-size: 24px;
+	line-height: 32px;
+	text-decoration: underline;
+	margin-top: 56px;
+	font-family: 'Open Sans', sans-serif;
+}
+.asset-left {
+	position: relative;
+}
+.asset-left .asset-copy-action {
+	width: 221px;
+	letter-spacing: -0.035em;
+	border: 2px solid #4967ac;
+	background-color: #ffffff;
+	font-size: 16px;
+	color: #4967ac;
+	position: absolute;
+	left: 552px;
+	bottom: 41px;
+	cursor: pointer;
+}
+.asset-left .asset-copy {
+	height: 424px;
+	padding-top: 16px;
+}
+.asset-left .asset-copy-headline {
+	line-height: 32px;
+	margin-bottom: 16px;
+	height: 80px;
+	background-position-y: 78px;
+}
+.asset-left .asset-copy-subhead:nth-of-type(3), .asset-left .asset-copy-subhead:nth-of-type(4){
+	margin-top: 12px;
+}

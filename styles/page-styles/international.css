@@ -1,18 +1,10 @@
-.measure-twice {
-	background-image: url("/images/MOS16_Q_International_v4.2.png");
-	position: absolute;
-	height: 3866px;
-	width: 1100px;
-	background-repeat: no-repeat;
-	left: 90px;
-	top: -144px;
-	z-index: 99;
-	opacity: .8;
-}
+
 .page-heading {
 	background-image: url("/images/international-page-heading-background.jpg");
-	height: 368px;
 	margin-bottom: 32px;
+}
+.page-heading .heading-copy {
+	margin-top: 6px;
 }
 .grid-three .grid-body {
 	background-image: url("/images/international-grid-three-background.jpg")
@@ -37,12 +29,12 @@
 	margin-top: 40px;
 }
 .grid-three.woosuk .grid-bottom-attribution {
-	margin-top: 16px;
+	margin-top: 7px;
 	margin-left: 30px;
 	color: #ffffff;
 	font-size: 14px;
 	font-weight: 300;
-	line-height: 21px;
+	line-height: 24px;
 }
 .grid-three.woosuk .grid-body-action {
 	left: 0px;
@@ -68,7 +60,7 @@
 .case-study .case-attribution {
 	font-size: 16px;
 	line-height: 24px;
-	margin-top: 12px;
+	margin-top: 5px;
 	color: #3b3b3c;
 }
 .case-study .case-action {
@@ -81,6 +73,9 @@
 	height: 440px;
 	background-image: url("/images/voucher-sojitz-background.jpg");
 }
+.voucher.sojitz .voucher-headline {
+	margin-top: 64px;
+}
 .voucher.sojitz .voucher-attribution {
 	position: absolute;
 	right: 90px;
@@ -88,6 +83,9 @@
 	font-size: 16px;
 	line-height: 24px;
 	margin-top: 312px;
+}
+.voucher.sojitz .voucher-copy {
+	margin-top: 110px;
 }
 .voucher.sojitz .voucher-action {
 	margin-top: 360px;

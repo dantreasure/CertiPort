@@ -1,0 +1,37 @@
+.page-heading {
+	background-image: url("/images/resources-page-heading-background.jpg");
+	margin-bottom: 0px;
+}
+.page-heading .heading-headline {
+	margin-top: 21px;
+}
+.page-heading .heading-copy {
+	margin-top: 6px;
+}
+.feature-four {
+	height: 920px;
+}
+.feature-four .feature-block {
+	margin-bottom: 32px;
+}
+.feature-four .feature-block-image {
+	position: relative;
+	top: 12px;
+	left: 22px;
+	margin-bottom: 38px;
+}
+.feature-four .feature-block-headline {
+	line-height: 24px;
+	margin-bottom: 10px;
+}
+.feature-four .feature-block-action {
+	color: #ffffff;
+	font-weight: 600;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 12px;
+
+}
+.local-footer {
+	margin-top: 32px;
+}

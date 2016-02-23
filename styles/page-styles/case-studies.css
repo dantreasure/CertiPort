@@ -82,6 +82,41 @@
 	margin-top: 352px;
 	width: 240px;
 }
+.case-study.mos-statewide {
+	margin-top: 32px;
+	background-image: url("/images/mos-statewide-case-study-background.jpg");
+}
+.case-study.mos-statewide .case-action {
+	width: 400px;
+	margin-top: 32px;
+}
 .local-footer {
-	margin-top: 100px;
+	margin-top: 72px;
+}
+.link-block.case-studies{
+	margin-top: 56px;
+}
+.link-block .row-channel {
+	margin-top: 8px;
+}
+.link-block .channel-items.overflow{
+	top: -13px;
+	margin-left: 89px;
+}
+.link-block .channel-items.overflow.five{
+	top: 0px;
+}
+.link-block .channel-items.overflow.short{
+	top: -64px;
+	margin-left: 97px;
+}
+.link-block .row-channel.wide{
+	width: initial;
+	margin-right: 0px;
+}
+.link-block .row-channel.right{
+	margin-left: 52px;
+}
+.link-block .row-channel.extra-wide {
+	width: inherit;
 }
